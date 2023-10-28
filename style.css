@@ -1,0 +1,1047 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.franja-roja {
+  width: 100%;
+  height: 66px;
+  background-color: #ff1b05;
+}
+
+.lineas {
+  width: 426px;
+  height: 30px;
+  margin-top: -21px;
+  margin-left: 51px;
+  /* border: 2px solid #000000; */
+}
+
+.encierra-icono {
+  width: 45px;
+  height: 45px;
+  top: 10px;
+  margin-left: 10px;
+  /* border: 2px solid #000000; */
+  position: relative;
+}
+
+.encierra-icono img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+
+.iconos {
+  width: 200px;
+  height: 54px;
+  margin-top: -40px;
+  margin-left: 1100px;
+  position: relative;
+  /* border: 2px solid #000000; */
+}
+
+.iconos .social:hover {
+  background-color: #fcfcfc;
+  transition: .5s;
+}
+
+.menu-nav .nav-item:hover {
+  background-color: #FF4A4A;
+  transition: .5s;
+}
+
+.menu-nav .nav-mayo:hover {
+  background-color: #FF4A4A;
+  transition: .5s;
+}
+
+.menu-nav .nav-acerca:hover {
+  background-color: #FF4A4A;
+  transition: .6s;
+}
+
+.iconos img {
+  width: 32px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  position: sticky;
+}
+
+.links {
+  margin-right: 11px
+}
+
+h1 .titu {
+  font-size: 22px;
+}
+
+.eslogan {
+  margin-top: -30px;
+  margin-left: 140px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.redes {
+  width: 32px;
+  height: 32px;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.barra-nave {
+  background-color: #ffff00;
+  width: 100%;
+  height: 141px;
+}
+
+.titu-super {
+  position: relative;
+  width: 210px;
+  height: 80px;
+  top: -126px;
+  left: 150px;
+  /* border: 2px solid #000000; */
+}
+
+.titulo {
+  font-size: 18px;
+}
+
+.nues-esloga {
+  position: relative;
+  width: 200px;
+  height: 70px;
+  top: -140px;
+  left: 149px;
+  /* border: 2px solid #000000; */
+}
+
+.eslogan {
+  display: contents;
+
+}
+
+.Logo {
+  position: relative;
+  width: 150px;
+  height: 134px;
+  top: 4px;
+  left: -10px;
+  /* border: 2px solid #000000; */
+}
+
+.Logo img {
+  width: 146px;
+  height: 126px;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+.menu-nav {
+  position: relative;
+  width: 620px;
+  height: 51px;
+  font-size: 17px;
+  left: 394px;
+  top: -236px;
+  list-style-type: none;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 28px;
+  gap: 4px;
+}
+
+.nav-mayo {
+  width: 93px;
+  height: 44px;
+  position: relative;
+  top: -21px;
+  left: 383px;
+  /* border: 2px solid #000000; */
+}
+
+.nav-acerca {
+  width: 98px;
+  height: 46px;
+  position: relative;
+  right: 36px;
+  top: -65px;
+  left: 510px;
+  /* border: 2px solid #000000; */
+}
+
+.usua {
+  width: 45px;
+  height: 45px;
+  top: -295px;
+  left: 1084px;
+  position: relative;
+}
+
+.usua img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+
+.registro {
+  background-color: #ff1b05;
+  position: relative;
+  width: 105px;
+  height: 42px;
+  left: 1140px;
+  top: -337px;
+}
+
+.registra {
+  padding: 12px 7px;
+}
+
+.login {
+  padding: 10px 10px;
+}
+
+.telegram {
+  width: 60px;
+  height: 60px;
+}
+
+.experiencia {
+  background-color: #ff1b05;
+  width: 569px;
+  height: 39px;
+}
+
+.meses-aqui {
+  background-color: #ffff00;
+  width: 352px;
+  height: 47px;
+}
+
+.locura {
+  width: 473px;
+  height: 135px;
+}
+
+.grano {
+  width: 474px;
+  height: 248px;
+}
+
+.fab {
+  width: 97px;
+  height: 95px;
+}
+
+.ariel {
+  width: 84px;
+  height: 95px;
+}
+
+.head {
+  width: 115px;
+  height: 115px;
+}
+
+.papel {
+  width: 137px;
+  height: 137px;
+}
+
+.crema {
+  width: 117px;
+  height: 117px;
+}
+
+.Mas-plaza {
+  background-color: #ffff00;
+  width: 204px;
+  height: 50px;
+}
+
+.meses {
+  font-weight: bold;
+}
+
+.string-text {
+  font-weight: bold;
+}
+
+.frutas {
+  color: #000000;
+  font-weight: bold;
+}
+
+.calidad {
+  color: #000000;
+  font-weight: bold;
+}
+
+/* 
+.seccion-izquier p {
+  font-weight: bold;
+} */
+
+.plaza {
+  width: 432px;
+  height: 286px;
+}
+
+.image {
+ width: 500px;
+ height: 185px;
+}
+
+.imag {
+  width: 500px;
+  height: 500px;
+}
+
+.ima-dere {
+  width: 470px;
+  height: 470px;
+}
+
+.naranja {
+  width: 260px;
+  height: 168px;
+}
+
+.precio-naranja {
+  max-width: 243px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.banana {
+  width: 200px;
+  height: 160px;
+}
+
+.precio-banano {
+  max-width: 229px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.manzana {
+  width: 240px;
+  height: 160px;
+}
+
+.precio-manzana {
+  max-width: 241px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.granadilla {
+  width: 260px;
+  height: 145px;
+}
+
+.precio-granadilla {
+  max-width: 264px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.lulo {
+  width: 260px;
+  height: 174px;
+}
+
+.precio-lulo {
+  max-width: 243px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.maracuya {
+  width: 260px;
+  height: 147px;
+}
+
+.precio-maracu {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.tomate-arbol {
+  width: 220px;
+  height: 220px;
+}
+
+.precio-arbol {
+  max-width: 326px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.mora {
+  width: 260px;
+  height: 174px;
+}
+
+.precio-mora {
+  max-width: 249px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.papa-comun {
+  width: 200px;
+  height: 200px;
+}
+
+.precio-comun {
+  max-width: 290px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.papa-crio {
+  width: 180px;
+  height: 180px;
+}
+
+.precio-criolla {
+  max-width: 290px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.tomate {
+  width: 280px;
+  height: 158px;
+}
+
+.precio-tomate {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.plata-verde {
+  width: 250px;
+  height: 173px;
+}
+
+.platano-verde {
+  max-width: 299px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.zanahoria {
+  width: 210px;
+  height: 210px;
+}
+
+.precio-zanah {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.Cebolla-normal {
+  width: 210px;
+  height: 210px;
+}
+
+.precio-cebolla {
+  max-width: 337px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.cabezona-roja {
+  width: 210px;
+  height: 210px;
+}
+
+.precio-roja {
+  max-width: 380px;
+  max-height: 50px;
+  border: 2px solid #000000;
+}
+
+.cilantro {
+  width: 270px;
+  height: 180px; 
+}
+
+.precio-cilantro {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.cebolla-larga {
+  width: 240px;
+  height: 240px;
+}
+
+.precio-larga {
+  max-width: 303px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.arveja-verde {
+  width: 220px;
+  height: 220px;
+}
+
+.precio-arve {
+  max-width: 203px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.ahuyama {
+  width: 240px;
+  height: 160px;  
+}
+
+.precio-ahuya {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+.brocoli {
+  width: 260px;
+  height: 163px;
+}
+
+.precio-broco {
+  max-width: 262px;
+  max-height: 46px;
+  border: 2px solid #000000;
+}
+
+
+a[href="inicio.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="productos.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="plaza.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="servicios.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="precios_may.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="acerca_nos.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="login.php"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="poli_term.html"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a[href="https://www.sic.gov.co/"] {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* .container {
+  margin-top: 4px;
+} */
+footer {
+  position: sticky;
+  margin-bottom: 0;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.pie-pagina {
+  background-color: #ff1b05;
+  height: 220px;
+}
+
+
+.acerca_nosotros {
+  position: relative;
+  width: 173px;
+  height: 31px;
+  top: 17px;
+  left: 19px;
+  /* border: 2px solid #000000; */
+  /* margin-top: 4px; */
+}
+
+.primera-columna {
+  position: relative;
+  width: 208px;
+  height: 143px;
+  font-weight: bold;
+  top: 27px;
+  padding: 2px;
+  left: 12px;
+  bottom: 0;
+  /* border: 2px solid #000000; */
+}
+
+.primera-columna ul {
+  /* position: relative; */
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.primera-columna ul li {
+  margin-left: 5px; /* Añade espaciado entre los elementos de la lista si lo deseas */
+  padding-left: 2px;
+}
+
+.primera-columna p {
+  font-weight: bold;
+  margin-left: 28px;
+  padding: 1px;
+}
+
+.ubica {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  top: -116px;
+  left: 13px;
+  /* border: 2px solid #000000; */
+}
+
+.ubica img {
+  width: 24px;
+  height: 24px;
+}
+
+.importante {
+  position: relative;
+  width: 102px;
+  height: 32px;
+  top: -181px;
+  left: 312px;
+  margin-left: 19px;
+  /* border: 2px solid #000000; */
+  /* margin-top: 4px; */
+}
+
+
+.info-foot {
+  position: relative;
+  width: 203px;
+  height: 138px;
+  top: -171px;
+  left: 289px;
+  /* border: 2px solid #000000; */
+  /* margin-top: 4px; */
+}
+
+.info-foot ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+.info-foot p {
+  margin-left: 19px;
+  padding: 1px;
+}
+
+.contacto-dueños {
+  position: relative;
+  width: 130px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  top: -347px;
+  left: 613px;
+  /* border: 2px solid #000000; */
+}
+
+.atencion {
+  position: relative;
+  width: 32px;
+  height: 31px;
+  top: -337px;
+  left: 563px;
+  /* border: 2px solid #000000; */
+}
+
+.atencion img {
+  width: 24px;
+  height: 24px;
+}
+
+.correo-uno {
+  position: relative;
+  width: 32px;
+  height: 31px;
+  top: -297px;
+  left: 562px;
+  /* border: 2px solid #000000; */
+}
+
+.correo-uno img {
+  width: 24px;
+  height: 24px;
+}
+
+.correo-dos {
+  position: relative;
+  width: 32px;
+  height: 31px;
+  top: -277px;
+  left: 562px;
+  /* border: 2px solid #000000; */
+}
+
+.correo-dos img {
+  width: 24px;
+  height: 24px;
+}
+
+.horario-atencion {
+  position: relative;
+  width: 234px;
+  height: 59px;
+  top: -429px;
+  left: 601px;
+  font-weight: bold;
+  /* border: 2px solid #000000; */
+}
+
+.dueño-uno {
+  position: relative;
+  width: 201px;
+  height: 28px;
+  top: -417px;
+  left: 601px;
+  font-weight: bold;
+  /* border: 2px solid #000000; */
+}
+
+.dos-dueño {
+  position: relative;
+  width: 209px;
+  height: 32px;
+  top: -395px;
+  left: 601px;
+  font-weight: bold;
+  /* border: 2px solid #000000; */
+}
+
+.logo-super {
+  position: relative;
+  width: 106px;
+  height: 88px;
+  top: -598px;
+  left: 894px;
+  /* border: 2px solid #000000; */
+}
+
+.logo-super img {
+  width: 94px;
+  height: 82px;
+}
+
+.derechos {
+  position: relative;
+  width: 340px;
+  height: 42px;
+  top: -600px;
+  left: 994px;
+  font-weight: bold;
+  /* border: 2px solid #000000; */
+}
+
+.datos-person {
+  position: relative;
+  width: 451px;
+  height: 30px;
+  top: -576px;
+  left: 892px;
+  font-weight: bold;
+  /* border: 2px solid #000000; */
+}
+
+.info-foot {
+  font-size: 16px;
+}
+
+.quienes-somos {
+  margin-left: 35px;
+  text-align: justify;
+}
+
+.primer-parrafo {
+  margin-left: 50px;
+  text-align: justify;
+}
+
+.segundo-parrafo {
+  margin-left: 50px;
+  text-align: justify;
+}
+
+/*TELEGRAM*/
+.float-tele {
+  position:absolute;
+  bottom: -150px;
+  right: 0px;
+  transform: translate(-35%, 10px);
+  z-index: 100;
+}
+
+.float-tele img {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+  /* Efecto de hover */
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px #333;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff1b05;
+  border-radius: 9px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+.produc-mayoris {
+  text-align: center;
+}
+
+.produc-mayoris img {
+  width: 544px;
+  height: 360px;
+}
+
+.ima-dos {
+  margin-top: -4px ;
+}
+
+.ima-tres {
+  margin-top: -5px;
+}
+
+.ima-cuatro {
+  margin-top: -4px;
+  margin-bottom: -3px;
+}
+
+.servi-ofre {
+  margin-left: 112px;
+}
+
+.parrafo-amplia {
+  margin-left: 112px;
+}
+
+.parrafo-domicilios {
+  margin-top: -68px;
+  margin-left: 112px;
+}
+
+.parrafo-servicio {
+  margin-top: -47px;
+  margin-left: 112px;
+}
+
+.parrafo-frescura {
+  margin-top: 70px;
+  margin-left: 112px;
+}
+
+.parrafo-impacto {
+  margin-top: 63px;
+  margin-left: 110px;
+}
+
+.parrafo-contacto {
+  margin-top: -31px;
+  margin-left: 110px;
+}
+
+.slider-uno {
+  position: relative;
+  width: 412px;
+  height: 126px;
+  top: -112px;
+  left: 842px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-uno img {
+  width: 160px;
+  height: 120px;
+}
+
+.slider-uno .grano-uno {
+  width: 230px;
+  height: 105px;
+}
+
+.slider-dos {
+  position: relative;
+  width: 234px;
+  height: 111px;
+  top: -108px;
+  left: 842px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-dos img {
+  width: 240px;
+  height: 106px;
+}
+
+.slider-tres {
+  position: relative;
+  width: 41px;
+  height: 20px;
+  top: -99px;
+  left: 842px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-tres img {
+  width: 160px;
+  height: 108px;
+}
+
+.slider-cuatro {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: -114px;
+  left: 842px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-cuatro img {
+  width: 149px;
+  height: 124px;
+}
+
+.slider-cinco {
+  position: relative;
+  width: 192px;
+  height: 109px;
+  top: -104px;
+  left: 842px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-cinco img {
+  width: 200px ;
+  height: 113px;
+}
+
+.slider-seis {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: -116px;
+  left: 819px;
+  /* border: 2px solid #000000; */
+}
+ 
+.slider-seis img {
+  width: 167px;
+  height: 140px;
+}
+
+/* .login_register {
+  position: relative;
+  width: 522px;
+  height: 446px;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 2px solid #000000;
+} */
+
+.aden-login {
+  position: relative;
+  width: 454px;
+  height: 399px;
+  text-align: center;
+  /* top: 36%;
+  left: 50%; */
+  transform: translate(-50%, -50%);
+  left: 720px;
+  top: 188px;
+  /* bottom: 10px; */
+  border: 2px solid #000000;
+}
