@@ -23,16 +23,30 @@ body {
   height: 30px;
   margin-top: -21px;
   margin-left: 51px;
+  /* font-weight: bold;
+  text-decoration: none; */
   /* border: 2px solid #000000; */
 }
 
+.numer-uno {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.numer-dos {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .encierra-icono {
+  position: relative;
   width: 45px;
   height: 45px;
   top: 10px;
   margin-left: 10px;
   /* border: 2px solid #000000; */
-  position: relative;
 }
 
 .encierra-icono img {
@@ -45,9 +59,9 @@ body {
 
 .iconos {
   width: 200px;
-  height: 54px;
-  margin-top: -40px;
-  margin-left: 1100px;
+  height: 41px;
+  margin-top: -38px;
+  margin-left: 1128px;
   position: relative;
   /* border: 2px solid #000000; */
 }
@@ -114,27 +128,27 @@ h1 .titu {
   position: relative;
   width: 210px;
   height: 80px;
-  top: -126px;
-  left: 150px;
+  top: -124px;
+  left: 171px;
   /* border: 2px solid #000000; */
 }
 
 .titulo {
   font-size: 18px;
+  text-shadow: 2px 3px 0px #00000038;
 }
 
 .nues-esloga {
   position: relative;
   width: 200px;
-  height: 70px;
-  top: -140px;
-  left: 149px;
+  height: 46px;
+  top: -137px;
+  left: 170px;
   /* border: 2px solid #000000; */
 }
 
 .eslogan {
   display: contents;
-
 }
 
 .Logo {
@@ -142,7 +156,7 @@ h1 .titu {
   width: 150px;
   height: 134px;
   top: 4px;
-  left: -10px;
+  left: 8px;
   /* border: 2px solid #000000; */
 }
 
@@ -157,11 +171,12 @@ header {
 
 .menu-nav {
   position: relative;
+  display: inline-block;
   width: 620px;
   height: 51px;
   font-size: 17px;
-  left: 394px;
-  top: -236px;
+  left: 417px;
+  top: -208px;
   list-style-type: none;
 }
 
@@ -190,38 +205,55 @@ header {
   /* border: 2px solid #000000; */
 }
 
-.usua {
+/* .usua {
   width: 45px;
   height: 45px;
-  top: -295px;
+  top: -263px;
   left: 1084px;
   position: relative;
-}
+} */
 
-.usua img {
+.menu-nav img {
   width: 32px;
   height: 32px;
   position: absolute;
-  top: 4px;
-  left: 3px;
+  top: 1px;
+  left: 680px;
 }
+/* 
+.usua img {
+} */
 
-.registro {
+/* .registro {
   background-color: #ff1b05;
   position: relative;
   width: 105px;
   height: 42px;
   left: 1140px;
-  top: -337px;
+  top: -310px;
+  border-radius: 5px;
+} */
+
+/* .registro ul li {
+  z-index: 1;
+} */
+
+.submenu {
+  position: absolute;
+  background: #ff1b05;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
 }
 
-.registra {
+/* .registra {
   padding: 12px 7px;
-}
+} */
 
-.login {
-  padding: 10px 10px;
-}
+/* .login {
+  padding: 10px 8px;
+} */
 
 .telegram {
   width: 60px;
@@ -232,81 +264,136 @@ header {
   background-color: #ff1b05;
   width: 569px;
   height: 39px;
+  text-shadow: 2px 3px 0px #00000038;
 }
 
-.meses-aqui {
-  background-color: #ffff00;
-  width: 352px;
-  height: 47px;
-}
-
-.locura {
-  width: 473px;
-  height: 135px;
+.pagi-ini {
+  height: 591px;
 }
 
 .grano {
+  position: relative;
+  width: 454px;
+  height: 247px;
+  top: 33px;
+  left: 12px;
+  /* border: 2px solid #000000; */
+}
+
+.grano img {
   width: 474px;
   height: 248px;
 }
 
 .fab {
+  position: relative;
+  width: 99px;
+  height: 97px;
+  top: -198px;
+  left: 494px;
+  /* border: 2px solid #000000; */
+}
+
+.fab img {
   width: 97px;
   height: 95px;
 }
 
 .ariel {
+  position: relative;
+  width: 86px;
+  height: 97px;
+  top: -293px;
+  left: 577px;
+  /* border: 2px solid #000000; */
+}
+
+.ariel img {
   width: 84px;
   height: 95px;
 }
 
 .head {
+  position: relative;
+  width: 106px;
+  height: 119px;
+  top: -406px;
+  left: 641px;
+  /* border: 2px solid #000000; */
+}
+
+.head img {
   width: 115px;
   height: 115px;
 }
 
 .papel {
+  position: relative;
+  width: 140px;
+  height: 123px;
+  top: -416px;
+  left: 485px;
+  /* border: 2px solid #000000; */
+}
+
+.papel img {
   width: 137px;
   height: 137px;
 }
 
 .crema {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  top: -531px;
+  left: 621px;
+  /* border: 2px solid #000000; */
+}
+
+.crema img {
   width: 117px;
   height: 117px;
 }
 
 .Mas-plaza {
+  position: relative;
   background-color: #ffff00;
-  width: 204px;
-  height: 50px;
+  width: 231px;
+  height: 68px;
+  left: 976px;
+  top: -935px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  /* border: 2px solid #000000; */
 }
 
-.meses {
-  font-weight: bold;
+.Mas-plaza p {
+  padding: 14px 13px;
 }
 
-.string-text {
-  font-weight: bold;
+.plaza {
+  position: relative;
+  width: 359px;
+  height: 246px;
+  left: 960px;
+  top: -910px;
+  /* border: 2px solid #000000; */
 }
 
-.frutas {
-  color: #000000;
-  font-weight: bold;
+.plaza img {
+  width: 355px;
+  height: 242px;
 }
 
 .calidad {
-  color: #000000;
+  position: relative;
+  width: 280px;
+  height: 69px;
+  top: -917px;
+  left: 976px;
+  /* border: 2px solid #000000; */
   font-weight: bold;
-}
-
-/* 
-.seccion-izquier p {
-  font-weight: bold;
-} */
-
-.plaza {
-  width: 432px;
-  height: 286px;
 }
 
 .image {
@@ -324,226 +411,516 @@ header {
   height: 470px;
 }
 
+/* DE AQUI PARA ABAJO LA PÁGINA DE PLAZA */
+.frutas {
+  position: relative;
+  max-width: 256px;
+  max-height: 46px;
+  /* border: 2px solid #000000; */
+  color: #000000;
+  font-weight: bold;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  /* text-align: center; */
+  /* bottom: 24px; */
+}
+
+.negrita {
+  font-weight: bold;
+  padding-left: 12px;
+}
+
+.precios-plaz {
+  padding-left: 60px;
+  font-weight: bold;
+}
+
+.plazaa {
+  height: 1500px;
+}
+
 .naranja {
+  position: relative;
+  width: 239px;
+  height: 170px;
+  top: 34px;
+  left: 2px;
+  /* border: 2px solid #000000; */
+}
+
+.naranja img {
   width: 260px;
-  height: 168px;
+  height: 163px;
 }
 
 .precio-naranja {
-  max-width: 243px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 187px;
+  height: 46px;
+  top: 35px;
+  left: 24px;
+  /* bottom: 24px; */
+  /* border: 2px solid #000000; */
 }
 
 .banana {
+  position: relative;
+  width: 202px;
+  height: 162px;
+  top: -176px;
+  left: 365px;
+  /* border: 2px solid #000000; */
+}
+
+.banana img {
   width: 200px;
   height: 160px;
 }
 
 .precio-banano {
-  max-width: 229px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 178px;
+  height: 46px;
+  top: -178px;
+  left: 374px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .manzana {
+  position: relative;
+  width: 245px;
+  height: 165px;
+  top: -378px;
+  left: 691px;
+  /* border: 2px solid #000000; */
+}
+
+.manzana img {
   width: 240px;
   height: 160px;
 }
 
 .precio-manzana {
-  max-width: 241px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 154px;
+  height: 46px;
+  top: -377px;
+  left: 727px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .granadilla {
+  position: relative;
+  width: 262px;
+  height: 147px;
+  top: -578px;
+  left: 1059px;
+  /* border: 2px solid #000000; */
+}
+
+.granadilla img {
   width: 260px;
   height: 145px;
 }
 
 .precio-granadilla {
-  max-width: 264px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 198px;
+  height: 46px;
+  top: -576px;
+  left: 1092px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .lulo {
-  width: 260px;
-  height: 174px;
+  position: relative;
+  width: 255px;
+  height: 176px;
+  top: -482px;
+  left: 15px;
+  /* border: 2px solid #000000; */
+}
+
+.lulo img {
+  width: 250px;
+  height: 170px;
 }
 
 .precio-lulo {
-  max-width: 243px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 150px;
+  height: 46px;
+  top: -478px;
+  left: 55px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .maracuya {
-  width: 260px;
-  height: 147px;
+  position: relative;
+  width: 263px;
+  height: 159px;
+  top: -692px;
+  left: 383px;
+  /* border: 2px solid #000000; */
+}
+
+.maracuya img {
+  width: 258px;
+  height: 154px;
 }
 
 .precio-maracu {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 194px;
+  height: 46px;
+  top: -689px;
+  left: 422px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .tomate-arbol {
-  width: 220px;
-  height: 220px;
+  position: relative;
+  width: 180px;
+  height: 189px;
+  top: -940px;
+  left: 764px;
+  /* border: 2px solid #000000; */
+}
+
+.tomate-arbol img {
+  position: relative;
+  width: 196px;
+  height: 195px;
+  padding: 2px 3px;
 }
 
 .precio-arbol {
-  max-width: 326px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 243px;
+  height: 46px;
+  top: -933px;
+  left: 745px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .mora {
+  position: relative;
+  width: 265px;
+  height: 179px;
+  top: -1161px;
+  left: 1067px;
+  /* border: 2px solid #000000; */
+}
+
+.mora img {
   width: 260px;
   height: 174px;
 }
 
 .precio-mora {
-  max-width: 249px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 164px;
+  height: 46px;
+  top: -1159px;
+  left: 1127px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .papa-comun {
+  position: relative;
+  width: 195px;
+  height: 158px;
+  top: -1105px;
+  left: 38px;
+  padding: 0px 2px;
+  /* border: 2px solid #000000; */
+}
+
+.papa-comun img {
   width: 200px;
   height: 200px;
 }
 
 .precio-comun {
-  max-width: 290px;
-  max-height: 46px;
-  border: 2px solid #000000;
+  position: relative;
+  width: 217px;
+  height: 46px;
+  top: -1099px;
+  left: 39px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
 .papa-crio {
-  width: 180px;
-  height: 180px;
+  position: relative;
+  width: 182px;
+  height: 182px;
+  top: -1282px;
+  left: 421px;
+  /* border: 2px solid #000000; */
 }
 
-.precio-criolla {
-  max-width: 290px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.tomate {
-  width: 280px;
-  height: 158px;
-}
-
-.precio-tomate {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.plata-verde {
-  width: 250px;
-  height: 173px;
-}
-
-.platano-verde {
-  max-width: 299px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.zanahoria {
-  width: 210px;
-  height: 210px;
-}
-
-.precio-zanah {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.Cebolla-normal {
-  width: 210px;
-  height: 210px;
-}
-
-.precio-cebolla {
-  max-width: 337px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.cabezona-roja {
-  width: 210px;
-  height: 210px;
-}
-
-.precio-roja {
-  max-width: 380px;
-  max-height: 50px;
-  border: 2px solid #000000;
-}
-
-.cilantro {
-  width: 270px;
-  height: 180px; 
-}
-
-.precio-cilantro {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.cebolla-larga {
-  width: 240px;
-  height: 240px;
-}
-
-.precio-larga {
-  max-width: 303px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.arveja-verde {
-  width: 220px;
-  height: 220px;
-}
-
-.precio-arve {
-  max-width: 203px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.ahuyama {
-  width: 240px;
-  height: 160px;  
-}
-
-.precio-ahuya {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
-}
-
-.brocoli {
-  width: 260px;
+.papa-crio img {
+  width: 171px;
   height: 163px;
 }
 
-.precio-broco {
-  max-width: 262px;
-  max-height: 46px;
-  border: 2px solid #000000;
+.precio-criolla {
+  position: relative;
+  width: 210px;
+  height: 46px;
+  top: -1293px;
+  left: 400px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
 }
 
+.tomate {
+  position: relative;
+  width: 263px;
+  height: 144px;
+  top: -1499px;
+  left: 744px;
+  /* border: 2px solid #000000; */
+}
+
+.tomate img {
+  width: 257px;
+  height: 139px;
+}
+
+.precio-tomate {
+  position: relative;
+  width: 179px;
+  height: 41px;
+  top: -1495px;
+  left: 777px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.plata-verde {
+  position: relative;
+  width: 237px;
+  height: 155px;
+  top: -1690px;
+  left: 1091px;
+  /* border: 2px solid #000000; */
+}
+
+.plata-verde img {
+  width: 232px;
+  height: 151px;
+}
+
+.platano-verde {
+  position: relative;
+  width: 224px;
+  height: 46px;
+  top: -1685px;
+  left: 1105px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.zanahoria {
+  position: relative;
+  width: 190px;
+  height: 180px;
+  top: -1618px;
+  left: 32px;
+  /* border: 2px solid #000000; */
+}
+
+.zanahoria img {
+  width: 184px;
+  height: 174px;
+}
+
+.precio-zanah {
+  position: relative;
+  width: 194px;
+  height: 46px;
+  top: -1604px;
+  left: 27px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.Cebolla-normal {
+  position: relative;
+  width: 189px;
+  height: 180px;
+  top: -1841px;
+  left: 413px;
+  /* border: 2px solid #000000; */
+}
+
+.Cebolla-normal img {
+  width: 184px;
+  height: 174px;
+}
+
+.precio-cebolla {
+  position: relative;
+  width: 250px;
+  height: 46px;
+  top: -1843px;
+  left: 373px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.cabezona-roja {
+  position: relative;
+  width: 190px;
+  height: 180px;
+  top: -2063px;
+  left: 770px;
+  /* border: 2px solid #000000; */
+}
+
+.cabezona-roja img {
+  width: 180px;
+  height: 174px;
+}
+
+.precio-roja {
+  position: relative;
+  width: 214px;
+  height: 39px;
+  top: -2063px;
+  left: 757px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.cilantro {
+  position: relative;
+  width: 238px;
+  height: 158px;
+  top: -2261px;
+  left: 1092px;
+  /* border: 2px solid #000000; */
+}
+
+.cilantro img {
+  width: 227px;
+  height: 153px; 
+}
+
+.precio-cilantro {
+  position: relative;
+  width: 179px;
+  height: 46px;
+  top: -2258px;
+  left: 1113px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.cebolla-larga {
+  position: relative;
+  width: 203px;
+  height: 179px;
+  top: -2222px;
+  left: 18px;
+  /* border: 2px solid #000000; */
+}
+
+.cebolla-larga img {
+  width: 198px;
+  height: 205px;
+}
+
+.precio-larga {
+  position: relative;
+  width: 220px;
+  height: 46px;
+  top: -2217px;
+  left: 4px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.arveja-verde {
+  position: relative;
+  width: 186px;
+  height: 189px;
+  top: -2430px;
+  left: 419px;
+  /* border: 2px solid #000000; */
+}
+
+.arveja-verde img {
+  width: 180px;
+  height: 184px;
+}
+
+.precio-arve {
+  position: relative;
+  width: 211px;
+  height: 46px;
+  top: -2429px;
+  left: 402px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.ahuyama {
+  position: relative;
+  width: 217px;
+  height: 152px;
+  top: -2643px;
+  left: 757px;
+  /* border: 2px solid #000000; */
+}
+
+.ahuyama img {
+  width: 212px;
+  height: 147px;  
+}
+
+.precio-ahuya {
+  position: relative;
+  width: 188px;
+  height: 46px;
+  top: -2641px;
+  left: 769px;
+  /* bottom: 2px; */
+  /* border: 2px solid #000000; */
+}
+
+.brocoli {
+  position: relative;
+  width: 220px;
+  height: 160px;
+  top: -2854px;
+  left: 1100px;
+  /* border: 2px solid #000000; */
+}
+
+.brocoli img {
+  width: 228px;
+  height: 160px;
+}
+
+.precio-broco {
+  position: relative;
+  width: 171px;
+  height: 46px;
+  top: -2845px;
+  left: 1129px;
+  /* bottom: -418px; */
+  /* border: 2px solid #000000; */
+}
 
 a[href="inicio.html"] {
   color: black;
@@ -599,9 +976,7 @@ a[href="https://www.sic.gov.co/"] {
   font-weight: bold;
 }
 
-/* .container {
-  margin-top: 4px;
-} */
+
 footer {
   position: sticky;
   margin-bottom: 0;
@@ -615,13 +990,12 @@ footer {
   height: 220px;
 }
 
-
 .acerca_nosotros {
   position: relative;
   width: 173px;
   height: 31px;
-  top: 17px;
-  left: 19px;
+  top: 18px;
+  left: 26px;
   /* border: 2px solid #000000; */
   /* margin-top: 4px; */
 }
@@ -633,7 +1007,7 @@ footer {
   font-weight: bold;
   top: 27px;
   padding: 2px;
-  left: 12px;
+  left: 18px;
   bottom: 0;
   /* border: 2px solid #000000; */
 }
@@ -674,20 +1048,18 @@ footer {
   position: relative;
   width: 102px;
   height: 32px;
-  top: -181px;
-  left: 312px;
+  top: -182px;
+  left: 319px;
   margin-left: 19px;
   /* border: 2px solid #000000; */
-  /* margin-top: 4px; */
 }
-
 
 .info-foot {
   position: relative;
   width: 203px;
   height: 138px;
   top: -171px;
-  left: 289px;
+  left: 292px;
   /* border: 2px solid #000000; */
   /* margin-top: 4px; */
 }
@@ -709,8 +1081,8 @@ footer {
   height: 30px;
   font-size: 18px;
   font-weight: bold;
-  top: -347px;
-  left: 613px;
+  top: -350px;
+  left: 628px;
   /* border: 2px solid #000000; */
 }
 
@@ -718,7 +1090,7 @@ footer {
   position: relative;
   width: 32px;
   height: 31px;
-  top: -337px;
+  top: -341px;
   left: 563px;
   /* border: 2px solid #000000; */
 }
@@ -732,7 +1104,7 @@ footer {
   position: relative;
   width: 32px;
   height: 31px;
-  top: -297px;
+  top: -303px;
   left: 562px;
   /* border: 2px solid #000000; */
 }
@@ -746,7 +1118,7 @@ footer {
   position: relative;
   width: 32px;
   height: 31px;
-  top: -277px;
+  top: -284px;
   left: 562px;
   /* border: 2px solid #000000; */
 }
@@ -758,10 +1130,10 @@ footer {
 
 .horario-atencion {
   position: relative;
-  width: 234px;
-  height: 59px;
-  top: -429px;
-  left: 601px;
+  width: 247px;
+  height: 50px;
+  top: -432px;
+  left: 593px;
   font-weight: bold;
   /* border: 2px solid #000000; */
 }
@@ -770,8 +1142,8 @@ footer {
   position: relative;
   width: 201px;
   height: 28px;
-  top: -417px;
-  left: 601px;
+  top: -412px;
+  left: 597px;
   font-weight: bold;
   /* border: 2px solid #000000; */
 }
@@ -779,9 +1151,9 @@ footer {
 .dos-dueño {
   position: relative;
   width: 209px;
-  height: 32px;
-  top: -395px;
-  left: 601px;
+  height: 27px;
+  top: -390px;
+  left: 598px;
   font-weight: bold;
   /* border: 2px solid #000000; */
 }
@@ -790,7 +1162,7 @@ footer {
   position: relative;
   width: 106px;
   height: 88px;
-  top: -598px;
+  top: -579px;
   left: 894px;
   /* border: 2px solid #000000; */
 }
@@ -804,7 +1176,7 @@ footer {
   position: relative;
   width: 340px;
   height: 42px;
-  top: -600px;
+  top: -590px;
   left: 994px;
   font-weight: bold;
   /* border: 2px solid #000000; */
@@ -814,7 +1186,7 @@ footer {
   position: relative;
   width: 451px;
   height: 30px;
-  top: -576px;
+  top: -559px;
   left: 892px;
   font-weight: bold;
   /* border: 2px solid #000000; */
@@ -825,21 +1197,74 @@ footer {
 }
 
 .quienes-somos {
-  margin-left: 35px;
+  position: relative;
+  top: 17px;
+  margin-bottom: 28px;
+  margin-left: 38px;
   text-align: justify;
 }
 
 .primer-parrafo {
-  margin-left: 50px;
+  margin-left: 98px;
   text-align: justify;
+  /* position: relative;
+  width: 800px;
+  height: 1200; */
+  /* margin-right: 30px; */
+  /* border: 2px solid #000000; */
 }
 
 .segundo-parrafo {
-  margin-left: 50px;
+  margin-left: 98px;
   text-align: justify;
 }
 
-/*TELEGRAM*/
+.info {
+  margin-left: 31px;
+}
+
+.priva {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.termin {
+  position: relative;
+  top: 10px;
+  margin-bottom: 18px;
+}
+
+.terminos {
+  margin-left: -56px;
+  text-align: center;
+}
+
+.terminos-condiciones {
+  margin-left: 30px;
+}
+
+.acepto {
+  background-color: #ff1b05;
+  position: relative;
+  text-align: center;
+  width: 105px;
+  height: 42px;
+  left: 641px;
+  top: -3px;
+  border-radius: 5px;
+}
+
+.aceptar {
+  padding: 12px 20px;
+}
+
+.todo-acep {
+  text-align: center;
+  padding: 10px 2px;
+}
+
+/*ICONO TELEGRAM*/
 .float-tele {
   position:absolute;
   bottom: -150px;
@@ -900,44 +1325,25 @@ footer {
 }
 
 .servi-ofre {
-  margin-left: 112px;
+  position: relative;
+  top: 12px;
+  margin-left: 94px;
+  margin-bottom: 2px;
 }
 
 .parrafo-amplia {
-  margin-left: 112px;
-}
-
-.parrafo-domicilios {
-  margin-top: -68px;
-  margin-left: 112px;
-}
-
-.parrafo-servicio {
-  margin-top: -47px;
-  margin-left: 112px;
-}
-
-.parrafo-frescura {
-  margin-top: 70px;
-  margin-left: 112px;
-}
-
-.parrafo-impacto {
-  margin-top: 63px;
-  margin-left: 110px;
-}
-
-.parrafo-contacto {
-  margin-top: -31px;
-  margin-left: 110px;
+  position: relative;
+  top: 29px;
+  margin-left: 93px;
+  margin-bottom: 2px;
 }
 
 .slider-uno {
   position: relative;
   width: 412px;
   height: 126px;
-  top: -112px;
-  left: 842px;
+  top: -90px;
+  left: 799px;
   /* border: 2px solid #000000; */
 }
 
@@ -951,26 +1357,40 @@ footer {
   height: 105px;
 }
 
+.parrafo-domicilios {
+  position: relative;
+  top: -12px;
+  margin-left: 93px;
+  margin-bottom: 2px;
+}
+
 .slider-dos {
   position: relative;
   width: 234px;
   height: 111px;
-  top: -108px;
-  left: 842px;
+  top: -133px;
+  left: 783px;
   /* border: 2px solid #000000; */
 }
 
 .slider-dos img {
-  width: 240px;
-  height: 106px;
+  width: 217px;
+  height: 99px;
+}
+
+.parrafo-servicio {
+  position: relative;
+  top: -33px;
+  margin-left: 93px;
+  margin-bottom: 2px;
 }
 
 .slider-tres {
   position: relative;
   width: 41px;
   height: 20px;
-  top: -99px;
-  left: 842px;
+  top: -150px;
+  left: 798px;
   /* border: 2px solid #000000; */
 }
 
@@ -979,69 +1399,412 @@ footer {
   height: 108px;
 }
 
+.parrafo-frescura {
+  position: relative;
+  top: 39px;
+  margin-left: 93px;
+  margin-bottom: 2px;
+}
+
 .slider-cuatro {
   position: relative;
   width: 20px;
   height: 20px;
-  top: -114px;
-  left: 842px;
+  top: -67px;
+  left: 768px;
   /* border: 2px solid #000000; */
 }
 
 .slider-cuatro img {
-  width: 149px;
-  height: 124px;
+  width: 146px;
+  height: 114px;
+}
+
+.parrafo-impacto {
+  position: relative;
+  top: 119px;
+  margin-left: 93px;
+  margin-bottom: 2px;
 }
 
 .slider-cinco {
   position: relative;
   width: 192px;
   height: 109px;
-  top: -104px;
-  left: 842px;
+  top: 32px;
+  left: 768px;
   /* border: 2px solid #000000; */
 }
 
 .slider-cinco img {
-  width: 200px ;
-  height: 113px;
+  width: 175px ;
+  height: 91px;
+}
+
+.parrafo-contacto {
+  position: relative;
+  top: 96px;
+  margin-left: 93px;
+  margin-bottom: 115px;
 }
 
 .slider-seis {
   position: relative;
   width: 20px;
   height: 20px;
-  top: -116px;
-  left: 819px;
+  top: -131px;
+  left: 722px;
   /* border: 2px solid #000000; */
 }
  
 .slider-seis img {
-  width: 167px;
-  height: 140px;
+  width: 163px;
+  height: 134px;
 }
 
-/* .login_register {
-  position: relative;
-  width: 522px;
-  height: 446px;
-  top: 36%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  border: 2px solid #000000;
-} */
+.lilo {
+  height: 1500px;
+}
 
 .aden-login {
   position: relative;
-  width: 454px;
-  height: 399px;
+  width: 400px;
+  height: 570px;
   text-align: center;
-  /* top: 36%;
-  left: 50%; */
   transform: translate(-50%, -50%);
-  left: 720px;
-  top: 188px;
-  /* bottom: 10px; */
-  border: 2px solid #000000;
+  left: 693px;
+  top: 298px;
+  /* bottom: 0px; */
+  margin-bottom: 38px;
+  /* box-shadow: 0 2px 5px 5px rgb(255, 27, 5)(0, 0, 0, 0.3); */
+  border: 2px solid #ff1b05;
+  box-shadow: 0 1px 9px 1px rgb(255, 27, 5);
+  border-radius: 18px;
 }
+
+.registrate {
+  text-shadow: 2px 3px 0px #00000038;
+}
+
+.estilo {
+  width: 298px;
+  margin: 100px auto;
+  padding: 40px;
+  text-align:center; 
+  background-color: #fff;
+  font-size:30px;
+  color: #ff1b05;
+  border-radius: 10px;
+  box-shadow: 0 1px 14px 1px rgb(255, 27, 5);
+  text-decoration: none;
+  text-shadow: 2px 3px 0px #00000038;
+}
+
+.aden-login p {
+  position: relative;
+  left: 4px;
+  top: -1px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.aden-login a {
+  color: blue;
+}
+
+.formu label {
+  display: block;
+  position: relative;
+  margin-left: 70px;
+  margin-bottom: 21px;
+  padding-left: 0px;
+  width: 272px;
+  height: 50px;
+  border: 0.5px solid #000000;
+  border-radius: 15px;
+  background: transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input {
+  cursor: pointer;
+  /* border: #ff1b05;
+  transition: background-color 0.2s ease-in-out; */
+}
+
+.formu {
+  background-color: transparent;
+}
+
+i.bx.bx-user {
+  position: relative;
+  top: 5px;
+  left: -2px
+}
+
+i.bx.bx-envelope {
+  position: relative;
+  top: 7px;
+  left: -3px
+}
+
+i.bx.bx-phone {
+  position: relative;
+  top: 5px;
+  left: -2px
+}
+
+i.bx.bx-map {
+  position: relative;
+  top: 6px;
+  left: -1px
+}
+
+i.bx.bxs-city {
+  position: relative;
+  top: 6px;
+  left: -1px
+}
+
+.controls {
+  position: relative;
+  width: 236px;
+  top: 4px;
+  left: 1px;
+  background: unset;
+  border: none;
+  outline: none;
+  height: 40px;
+  padding: 7px 0px;
+}
+/* 
+.resaltado {
+  /* box-shadow: 0 0 5px rgba(0, 0, 255, 0.7);
+  border: 2px solid red;
+} */
+/* 
+
+input:focus {
+  border-color: red; /* Cambia el color del borde cuando el input está enfocado
+  outline: none; 
+} */
+
+.register {
+  background-color: #ff1b05;
+  position: relative;
+  text-align: center;
+  width: 105px;
+  height: 42px;
+  left: 2px;
+  top: -3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.registar {
+  padding: 12px 13px;
+}
+
+.register .todo-regis {
+  color: #000000;
+}
+
+.experiencia {
+  position: relative;
+  width: 577px;
+  height: 36px;
+  top: -16px;
+  left: 389px;
+  text-align: center;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  /* bottom: 40px; */
+  /* border: 2px solid #000000; */
+}
+
+.experiencia h2 {
+  padding: 5px 4px;
+}
+
+.meses-aqui {
+  position: relative;
+  top: 16px;
+  left: 42px;
+  border-radius: 5px;
+  /* width: 200px;
+  height: 36px; */
+  /* bottom: 40px; */
+  /* border: 2px solid #000000; */
+  font-weight: bold;
+}
+
+.meses-aqui p {
+  padding: 13px 12px;
+}
+
+.meses-aqui {
+  background-color: #ffff00;
+  width: 219px;
+  height: 47px;
+}
+
+.locura {
+  position: relative;
+  width: 478px;
+  height: 140px;
+  top: 22px;
+  left: 40px;
+  /* border: 2px solid #000000; */
+}
+
+.locura img {
+  width: 473px;
+  height: 135px;
+}
+
+.string-text {
+  position: relative;
+  width: 360px;
+  height: 42px;
+  font-weight: bold;
+  top: 28px;
+  left: 28px;
+  /* border: 2px solid #000000; */
+}
+
+.festival-precios {
+  position: relative;
+  width: 445px;
+  height: 123px;
+  top: -8px;
+  left: 460px;
+  /* border: 2px solid #000000; */
+}
+
+.festival-precios img {
+  width: 440px;
+  height: 118px;
+}
+
+.slider-todo {
+  width: 600px;
+}
+
+.slider-todo {
+  /* float: right; */
+  width: 1000px;
+  height: auto;
+}
+
+.slider-todo .image1 {
+  position: relative;
+  width: 466px;
+  height: 460px;
+  top: 21px;
+  left: 155px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .image1 {
+  width: 462px;
+  height: 454px;
+}
+
+.slider-todo .image2 {
+  position: relative;
+  width: 464px;
+  height: 458px;
+  top: 475px;
+  left: -311px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .image2 {
+  width: 462px;
+  height: 456px;
+}
+
+.slider-todo .image3 {
+  position: relative;
+  width: 464px;
+  height: 464px;
+  top: 469px;
+  left: 155px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .image3 {
+  width: 462px;
+  height: 462px;
+}
+
+.slider-todo .imaga1 {
+  position: relative;
+  width: 462px;
+  height: 453px;
+  top: -448px;
+  left: 239px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .imaga1 {
+  width: 460px;
+  height: 451px;
+}
+
+.slider-todo .imaga2 {
+  position: relative;
+  width: 462px;
+  height: 453px;
+  top: -455px;
+  left: 705px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .imaga2 {
+  width: 460px;
+  height: 451px;
+}
+
+.slider-todo .imaga3 {
+  position: relative;
+  width: 464px;
+  height: 254px;
+  top: -205px;
+  left: 239px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .imaga3 {
+  width: 462px;
+  height: 252px;
+}
+
+.produc {
+ height: 1556px;
+}
+
+.slider-todo .execep-imag {
+  position: relative;
+  width: 444px;
+  height: 234px;
+  top: -211px;
+  left: 712px;
+  /* border: 2px solid #000000; */
+}
+
+.slider-todo .execep-imag {
+  width: 442px;
+  height: 232px;
+}
+
+/* .formu label input {
+  border: none;
+} */
+
+/* label {
+  margin-left: 10px;
+} */
