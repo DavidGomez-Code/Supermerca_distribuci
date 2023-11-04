@@ -5,6 +5,8 @@
   <title>SUPERMERCADOS ECONOMIA AYA/Registro</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="Css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" href="resaltado.js">
   <link rel="shortcut icon" href="http://drive.google.com/uc?export=view&id=1SfSqPSFSHSOKbNPkrRsXGHPhFvOiQIEg" type="image/x-icon">
 </head>
 
@@ -17,7 +19,8 @@
             </div>
 
             <div class="lineas">
-              <p><strong>Lineas de atención: 32233398438-3153400962</strong></p><br>
+              <p><strong> <a class="numer-uno" href="tel:+5732233398438">Lineas de atención: 32233398438-</a>
+              <a class="numer-dos" href="tel:+573153400962">3153400962</a></strong></p><br>
             </div>
 
           <div class="iconos">
@@ -77,40 +80,52 @@
               <ul class="registra"><a class="login" href="login.php">Registrate</a></ul>
             </div>
         </nav>
-
-            <div class="float-tele">
-              <img src="http://drive.google.com/uc?export=view&id=1EfPZU41xnEg-Y4_K5C7fkanuzrCt7FrU" class="telegram" 
-              alt="App Telegram" onclick="window.location.href='https://t.me/julianDav02'">
-            </div>
     </header>
         <!--Aqui finaliza el HEADER-->
 
 
-    <!--A continuación el SLIDER (login REGISTRO) de la página-->
+    <!--A continuación el (login REGISTRO) de la página-->
     <section class="login_register">
       <div class="aden-login">
-        <form action="envio_datos.php" method="post">
-          <h1>Regístrate</h1>
+        <form class="formu" action="envio_datos.php" method="post">
+          <h1 class="registrate">Regístrate</h1>
           <p>¡Conéctate con nosotros hoy!</p><br>
+          
+          <label>
+            <i class='bx bx-user'></i>
+            <input class="controls" type="text" id="nombre" name="bnombre_completo" placeholder="Nombre Completo" required><br>
+            <br>
+          </label>
+
+          <label>
+            <i class='bx bx-envelope'></i>
+            <input class="controls" type="email" id="correo" name="bcorreo_electronico" placeholder="Correo Electrónico" required><br>
+            <br>
+          </label>
+
+          <label>
+            <i class='bx bx-phone'></i>
+            <input class="controls" type="tel" id="telefono" name="bnumero_telefonico" placeholder="Número Telefónico" required><br>
+            <br>
+          </label>
   
-          <input type="text" class="form-control" id="nombre" name="bnombre_completo" placeholder="Nombre Completo" required><br>
-          <br>
+          <label>
+            <i class='bx bx-map'></i>
+            <input class="controls" type="text" id="ciudad" name="bdepartamento" placeholder="Departamento" required><br>
+            <br>
+          </label>
   
-          <input type="email" class="form-control" id="correo" name="bcorreo_electronico" placeholder="Correo Electrónico" required><br>
-          <br>
+          <label>
+            <i class='bx bxs-city'></i>
+            <input class="controls" type="text" id="ciudad" name="bciudad" placeholder="Ciudad" required><br>
+            <br>
+          </label>
   
-          <input type="tel" class="form-control" id="telefono" name="bnumero_telefonico" placeholder="Número Telefónico" required><br>
-          <br>
-  
-          <input type="text" class="form-control" id="ciudad" name="bdepartamento" placeholder="Departamento" required><br>
-          <br>
-  
-          <input type="text" class="form-control" id="ciudad" name="bciudad" placeholder="Ciudad" required><br>
-          <br>
-  
-          <p>Estoy de acuerdo con <a href="politica_privacidad.html">Terminos y Condiciones</a></p><br>
-          <a href="inicio.html"><input class="botons" type="submit" value="Registro"></a><br>
-          <!-- <button type="submit" class="btn btn-primary">Registrate</button> -->
+          <p>Estoy de acuerdo con <a href="poli_term.html">Terminos y Condiciones</a></p><br>
+          <div>
+            <a href="inicio.html"><input class="register" type="submit" value="Regístrate"></a>  
+            <!-- <a class="todo-regis" href="inicio.html">Registrate</a></ul> -->
+          </div>
         </form>
       </div>
     </section>
@@ -167,9 +182,7 @@
               </div>
 
               <div class="horario-atencion">
-                <p>Horario de atención: lunes a<br>
-                domingos de 6:00 a.m a<br>
-                8:30 p.m</p><br>  
+                <p>Horario de atención: lunes a<br> domingos de 6:00 a.m a 8:30 p.m</p><br>  
               </div>
 
               <div class="dueño-uno">
