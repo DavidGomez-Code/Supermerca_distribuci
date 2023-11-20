@@ -13,28 +13,40 @@ body {
 }
 
 .franja-roja {
-  width: 100%;
+  width: auto;
   height: 66px;
   background-color: #ff1b05;
 }
 
 .lineas {
+  position: relative;
+  color: #000000;
+  font-weight: bold;
   width: 426px;
   height: 30px;
-  margin-top: -21px;
-  margin-left: 51px;
-  /* font-weight: bold;
-  text-decoration: none; */
-  /* border: 2px solid #000000; */
+  top: -11px;
+  left: 51px;
+  text-decoration: none;
 }
 
-.numer-uno {
+.neas {
+  position: relative;
+  color: #000000;
+  font-weight: bold;
+  width: 426px;
+  height: 30px;
+  top: -8px;
+  left: 51px;
+  text-decoration: none;
+}
+
+.neas a {
   color: #000000;
   font-weight: bold;
   text-decoration: none;
 }
 
-.numer-dos {
+.lineas a {
   color: #000000;
   font-weight: bold;
   text-decoration: none;
@@ -42,71 +54,132 @@ body {
 
 .encierra-icono {
   position: relative;
-  width: 45px;
-  height: 45px;
-  top: 10px;
-  margin-left: 10px;
-  /* border: 2px solid #000000; */
-}
-
-.encierra-icono img {
   width: 32px;
   height: 32px;
-  position: absolute;
-  top: 4px;
-  left: 3px;
+  top: 16px;
+  left: 16px;
 }
 
-.iconos {
-  width: 200px;
-  height: 41px;
-  margin-top: -38px;
-  margin-left: 1128px;
+.sociala:hover {
+  background-color: rgb(253, 246, 96, 0.7);
+  transition: .5s;
   position: relative;
-  /* border: 2px solid #000000; */
 }
 
-.iconos .social:hover {
-  background-color: #fcfcfc;
+.sociala {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: -50px;
+  left: 1127px;
+}
+
+.ala {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: -45px;
+  left: 1127px;
+}
+
+.ala:hover {
+  background-color: rgb(253, 246, 96, 0.7);
+  transition: .5s;
+  position: relative;
+}
+
+.social {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: -49px;
+  left: 1124px;
+}
+
+.cial:hover {
+  background-color: rgb(253, 246, 96, 0.7);
+  position: relative;
+  transition: .5s;
+}
+
+.cial {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  top: -44px;
+  left: 1124px;
+}
+
+.social:hover {
+  background-color: rgb(253, 246, 96, 0.7);
+  position: relative;
   transition: .5s;
 }
 
 .menu-nav .nav-item:hover {
-  background-color: #FF4A4A;
+  background-color: #faf572;
   transition: .5s;
 }
 
 .menu-nav .nav-mayo:hover {
-  background-color: #FF4A4A;
+  background-color: #faf572;
   transition: .5s;
 }
 
 .menu-nav .nav-acerca:hover {
-  background-color: #FF4A4A;
+  background-color: #faf572;
   transition: .6s;
 }
 
-.iconos img {
-  width: 32px;
-  height: 32px;
-  top: 0;
-  left: 0;
-  position: sticky;
+
+.nav-barra .nav-item:hover {
+  background-color: #faf572;
+  transition: .5s;
+}
+
+.nav-barra .nav-mayo:hover {
+  background-color: #faf572;
+  transition: .5s;
+}
+
+.nav-barra .nav-acerca:hover {
+  background-color: #faf572;
+  transition: .6s;
 }
 
 .links {
   margin-right: 11px
 }
 
-h1 .titu {
-  font-size: 22px;
-}
-
 .eslogan {
-  margin-top: -30px;
-  margin-left: 140px;
+  position: relative;
+  width: 202px;
+  height: 35px;
   font-size: 14px;
   font-weight: bold;
+  top: -133px;
+  left: 168px;
+  /* border: 2px solid #000000; */
+}
+
+.titulo {
+  position: relative;
+  width: 194px;
+  height: 69px;
+  top: -124px;
+  left: 171px;
+  font-size: 19px;
+  text-shadow: 2px 3px 0px #00000038;
+  /* border: 2px solid #000000; */
+}
+
+.Logo {
+  position: relative;
+  width: 146px;
+  height: 126px;
+  top: 4px;
+  left: 8px;
+  /* border: 2px solid #000000; */
 }
 
 .redes {
@@ -121,48 +194,7 @@ h1 .titu {
 .barra-nave {
   background-color: #ffff00;
   width: 100%;
-  height: 141px;
-}
-
-.titu-super {
-  position: relative;
-  width: 210px;
-  height: 80px;
-  top: -124px;
-  left: 171px;
-  /* border: 2px solid #000000; */
-}
-
-.titulo {
-  font-size: 18px;
-  text-shadow: 2px 3px 0px #00000038;
-}
-
-.nues-esloga {
-  position: relative;
-  width: 200px;
-  height: 46px;
-  top: -137px;
-  left: 170px;
-  /* border: 2px solid #000000; */
-}
-
-.eslogan {
-  display: contents;
-}
-
-.Logo {
-  position: relative;
-  width: 150px;
-  height: 134px;
-  top: 4px;
-  left: 8px;
-  /* border: 2px solid #000000; */
-}
-
-.Logo img {
-  width: 146px;
-  height: 126px;
+  height: 137px;
 }
 
 header {
@@ -175,24 +207,84 @@ header {
   width: 620px;
   height: 51px;
   font-size: 17px;
-  left: 417px;
-  top: -208px;
+  left: 421px;
+  top: -200px;
   list-style-type: none;
 }
 
+.nav-barra {
+  position: relative;
+  display: flow;
+  width: 620px;
+  height: 51px;
+  font-size: 17px;
+  left: 421px;
+  top: -200px;
+  list-style-type: none;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-barra img {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 5px;
+  left: 677px;
+}
+
+.nav-barra a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-barra a:hover {
+  color: #FF4500;
+}
+
 .nav-item {
-  display: inline;
-  margin-right: 28px;
-  gap: 4px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.menu-nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-nav .regis-titu:hover {
+  color: #000000;
+}
+
+.nav-barra .regis-titu:hover {
+  color: #000000;
+}
+
+.menu-nav .ses:hover {
+  color: #000000;
+}
+
+.menu-nav a:hover {
+  color: 	#FF4500;
+}
+
+.lineas a:hover {
+  color:aquamarine;
 }
 
 .nav-mayo {
   width: 93px;
   height: 44px;
   position: relative;
-  top: -21px;
-  left: 383px;
+  top: -19px;
+  left: 382px;
   /* border: 2px solid #000000; */
+}
+
+.nav-mayo a:hover {
+  color: #FF4500;
 }
 
 .nav-acerca {
@@ -200,60 +292,156 @@ header {
   height: 46px;
   position: relative;
   right: 36px;
-  top: -65px;
-  left: 510px;
+  top: -63px;
+  left: 497px;
   /* border: 2px solid #000000; */
 }
 
-/* .usua {
-  width: 45px;
-  height: 45px;
-  top: -263px;
-  left: 1084px;
-  position: relative;
-} */
+.nav-acerca a:hover {
+  color: #FF4500;
+}
 
 .menu-nav img {
   width: 32px;
   height: 32px;
   position: absolute;
   top: 1px;
-  left: 680px;
+  left: 677px;
 }
-/* 
-.usua img {
-} */
 
-/* .registro {
-  background-color: #ff1b05;
-  position: relative;
-  width: 105px;
-  height: 42px;
-  left: 1140px;
-  top: -310px;
-  border-radius: 5px;
-} */
+.registrate {
+  text-shadow: 2px 1px 0px #00000038;
+}
 
-/* .registro ul li {
-  z-index: 1;
-} */
+.separacion-renglones {
+  line-height: 23.5px;
+}
+
+.renglones {
+  line-height: 23.5px;
+}
+
+.renglon {
+  line-height: 36.1px;
+}
+
+.espacio-renglones {
+ line-height: 28.1px;
+}
 
 .submenu {
-  position: absolute;
-  background: #ff1b05;
-  width: 120%;
+  position: relative;
+  background: rgb(255, 165, 0, 0.7);
+  width: 117%;
+  top: 19px;
+  height: 45px;
   visibility: hidden;
   opacity: 0;
   transition: opacity 1.5s;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-/* .registra {
-  padding: 12px 7px;
+/* .otro-menu {
+  position: relative;
+  background: #FA8072;
+  width: 117%;
+  top: 24px;
+  height: 42px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.otro-menu li a {
+  display: block;
+  position: relative;
+  top: 5px;
+  left: -1px;
+  padding: 7px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
 } */
 
-/* .login {
-  padding: 10px 8px;
-} */
+.submenu li a {
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 9px;
+  padding: 7px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.registrate {
+  position: relative;
+  background: #ff1b05;
+  width: 19%;
+  height: 37px;
+  top: -112px;
+  left: 719px;
+  border-radius: 7px;
+}
+
+.sesion {
+  background-color: #ff1b05;
+  position: relative;
+  text-align: center;
+  width: 118px;
+  height: 42px;
+  left: 719px;
+  top: -112px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.sesiones {
+  background-color: #ff1b05;
+  position: relative;
+  text-align: center;
+  width: 118px;
+  height: 42px;
+  left: 1px;
+  top: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.regis-titu {
+  position: relative;
+  left: 0px;
+  top: 11px;
+  padding: 1px 2px;
+}
+
+.registrate a {
+  position: relative;
+  left: 1px;
+  top: 8px;
+  padding: 1px 17px;
+}
+
+.menu-nav li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-barra li:hover .otro-menu {
+  visibility: visible;
+  opacity: 1;
+}
 
 .telegram {
   width: 60px;
@@ -267,90 +455,123 @@ header {
   text-shadow: 2px 3px 0px #00000038;
 }
 
-.pagi-ini {
-  height: 591px;
+.experiencia {
+  position: relative;
+  width: 577px;
+  height: 39px;
+  top: -16px;
+  left: 389px;
+  text-align: center;
+  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  /* bottom: 40px; */
+  /* border: 2px solid #000000; */
+}
+
+.experiencia h2 {
+  padding: 5px 4px;
+}
+
+.meses-aqui {
+  position: relative;
+  top: 8px;
+  left: 42px;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.meses-aqui p {
+  padding: 13px 12px;
+}
+
+.meses-aqui {
+  background-color: #ffff00;
+  width: 219px;
+  height: 47px;
+}
+
+.locura {
+  position: relative;
+  width: 478px;
+  height: 140px;
+  top: 22px;
+  left: 40px;
+}
+
+.locura img {
+  width: 473px;
+  height: 135px;
+  border-radius: 7px;
+}
+
+.string-text {
+  position: relative;
+  width: 433px;
+  height: 42px;
+  font-weight: bold;
+  top: 28px;
+  left: 44px;
+  /* border: 2px solid #000000; */
+}
+
+.primer-pag {
+  height: 674px;
+}
+
+.mi-interes {
+  position: relative;
+  top: 40px;
 }
 
 .grano {
   position: relative;
-  width: 454px;
-  height: 247px;
+  width: 474px;
+  height: 248px;
   top: 33px;
   left: 12px;
   /* border: 2px solid #000000; */
 }
 
-.grano img {
-  width: 474px;
-  height: 248px;
+.pagi-ini {
+  height: 591px;
 }
 
-.fab {
+.Fab {
   position: relative;
-  width: 99px;
-  height: 97px;
-  top: -198px;
-  left: 494px;
-  /* border: 2px solid #000000; */
-}
-
-.fab img {
+  top: -64px;
+  left: 17px;
   width: 97px;
   height: 95px;
 }
 
-.ariel {
+.Ariel {
   position: relative;
-  width: 86px;
-  height: 97px;
-  top: -293px;
-  left: 577px;
-  /* border: 2px solid #000000; */
-}
-
-.ariel img {
+  top: -63px;
+  left: -3px;
   width: 84px;
   height: 95px;
 }
 
-.head {
+.Shoul {
   position: relative;
-  width: 106px;
-  height: 119px;
-  top: -406px;
-  left: 641px;
-  /* border: 2px solid #000000; */
-}
-
-.head img {
+  top: -56px;
+  left: -26px;
   width: 115px;
   height: 115px;
 }
 
-.papel {
+.Papel {
   position: relative;
-  width: 140px;
-  height: 123px;
-  top: -416px;
-  left: 485px;
-  /* border: 2px solid #000000; */
-}
-
-.papel img {
+  top: 71px;
+  left: -287px;
   width: 137px;
   height: 137px;
 }
 
-.crema {
+.Crema {
   position: relative;
-  width: 120px;
-  height: 120px;
-  top: -531px;
-  left: 621px;
-  /* border: 2px solid #000000; */
-}
-
-.crema img {
+  top: 64px;
+  left: -270px;
   width: 117px;
   height: 117px;
 }
@@ -360,11 +581,11 @@ header {
   background-color: #ffff00;
   width: 231px;
   height: 68px;
-  left: 976px;
-  top: -935px;
+  left: 928px;
+  top: -623px;
   font-weight: bold;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 9px;
   /* border: 2px solid #000000; */
 }
 
@@ -372,26 +593,22 @@ header {
   padding: 14px 13px;
 }
 
-.plaza {
+.plasa {
   position: relative;
-  width: 359px;
-  height: 246px;
-  left: 960px;
-  top: -910px;
-  /* border: 2px solid #000000; */
-}
-
-.plaza img {
   width: 355px;
   height: 242px;
+  top: -218px;
+  left: 928px;
+  border-radius: 6px;
+  /* border: 2px solid #000000; */
 }
 
 .calidad {
   position: relative;
   width: 280px;
-  height: 69px;
-  top: -917px;
-  left: 976px;
+  height: 59px;
+  top: -607px;
+  left: 930px;
   /* border: 2px solid #000000; */
   font-weight: bold;
 }
@@ -414,13 +631,13 @@ header {
 /* DE AQUI PARA ABAJO LA PÁGINA DE PLAZA */
 .frutas {
   position: relative;
-  max-width: 256px;
-  max-height: 46px;
-  /* border: 2px solid #000000; */
+  width: 256px;
+  height: 46px;
   color: #000000;
   font-weight: bold;
-  left: 50%;
+  left: 52%;
   transform: translate(-50%, 0%);
+  /* border: 2px solid #000000; */
   /* text-align: center; */
   /* bottom: 24px; */
 }
@@ -430,20 +647,175 @@ header {
   padding-left: 12px;
 }
 
-.precios-plaz {
-  padding-left: 60px;
+.precios-naranja {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.precios-banano {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 64px;
+  font-weight: bold;
+}
+
+.precios-manzana {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 58px;
+  font-weight: bold;
+}
+
+.precios-granadilla {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 77px;
+  font-weight: bold;
+}
+
+.precios-lulo {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 47px;
+  font-weight: bold;
+}
+
+.precios-maracu {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.precios-arbol {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 93px;
+  font-weight: bold;
+}
+
+.precios-mora {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 62px;
+  font-weight: bold;
+}
+
+.precios-comun {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 73px;
+  font-weight: bold;
+}
+
+.precios-criolla {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 83px;
+  font-weight: bold;
+}
+
+.precios-tomate {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 68px;
+  font-weight: bold;
+}
+
+.precios-verde {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 92px;
+  font-weight: bold;
+}
+
+.precios-zanahoria {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 67px;
+  font-weight: bold;
+}
+
+.precios-cabezona {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 107px;
+  font-weight: bold;
+}
+
+.precios-roja {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 84px;
+  font-weight: bold;
+}
+
+.precios-cilantro {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 70px;
+  font-weight: bold;
+}
+
+.precios-larga {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 75px;
+  font-weight: bold;
+}
+
+.precios-arveja {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 82px;
+  font-weight: bold;
+}
+
+.precios-ahuyama {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 68px;
+  font-weight: bold;
+}
+
+.precios-brocoli {
+  position: relative;
+  top: 6px;
+  color:#ff1b05;
+  padding-left: 62px;
   font-weight: bold;
 }
 
 .plazaa {
-  height: 1500px;
+  height: 1640px;
 }
 
 .naranja {
   position: relative;
   width: 239px;
   height: 170px;
-  top: 34px;
+  top: 58px;
   left: 2px;
   /* border: 2px solid #000000; */
 }
@@ -457,9 +829,8 @@ header {
   position: relative;
   width: 187px;
   height: 46px;
-  top: 35px;
+  top: 66px;
   left: 24px;
-  /* bottom: 24px; */
   /* border: 2px solid #000000; */
 }
 
@@ -467,7 +838,7 @@ header {
   position: relative;
   width: 202px;
   height: 162px;
-  top: -176px;
+  top: -156px;
   left: 365px;
   /* border: 2px solid #000000; */
 }
@@ -481,9 +852,8 @@ header {
   position: relative;
   width: 178px;
   height: 46px;
-  top: -178px;
+  top: -145px;
   left: 374px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -491,7 +861,7 @@ header {
   position: relative;
   width: 245px;
   height: 165px;
-  top: -378px;
+  top: -373px;
   left: 691px;
   /* border: 2px solid #000000; */
 }
@@ -499,15 +869,15 @@ header {
 .manzana img {
   width: 240px;
   height: 160px;
+  border-radius: 9px;
 }
 
 .precio-manzana {
   position: relative;
   width: 154px;
   height: 46px;
-  top: -377px;
+  top: -360px;
   left: 727px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -529,9 +899,8 @@ header {
   position: relative;
   width: 198px;
   height: 46px;
-  top: -576px;
+  top: -552px;
   left: 1092px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -539,23 +908,23 @@ header {
   position: relative;
   width: 255px;
   height: 176px;
-  top: -482px;
+  top: -411px;
   left: 15px;
   /* border: 2px solid #000000; */
 }
 
 .lulo img {
   width: 250px;
-  height: 170px;
+  height: 160px;
+  border-radius: 9px;
 }
 
 .precio-lulo {
   position: relative;
   width: 150px;
   height: 46px;
-  top: -478px;
+  top: -410px;
   left: 55px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -563,7 +932,7 @@ header {
   position: relative;
   width: 263px;
   height: 159px;
-  top: -692px;
+  top: -635px;
   left: 383px;
   /* border: 2px solid #000000; */
 }
@@ -571,15 +940,15 @@ header {
 .maracuya img {
   width: 258px;
   height: 154px;
+  border-radius: 9px;
 }
 
 .precio-maracu {
   position: relative;
   width: 194px;
   height: 46px;
-  top: -689px;
-  left: 422px;
-  /* bottom: 2px; */
+  top: -623px;
+  left: 416px;
   /* border: 2px solid #000000; */
 }
 
@@ -587,8 +956,8 @@ header {
   position: relative;
   width: 180px;
   height: 189px;
-  top: -940px;
-  left: 764px;
+  top: -873px;
+  left: 766px;
   /* border: 2px solid #000000; */
 }
 
@@ -603,9 +972,8 @@ header {
   position: relative;
   width: 243px;
   height: 46px;
-  top: -933px;
-  left: 745px;
-  /* bottom: 2px; */
+  top: -852px;
+  left: 742px;
   /* border: 2px solid #000000; */
 }
 
@@ -613,23 +981,23 @@ header {
   position: relative;
   width: 265px;
   height: 179px;
-  top: -1161px;
-  left: 1067px;
+  top: -1082px;
+  left: 1075px;
   /* border: 2px solid #000000; */
 }
 
 .mora img {
-  width: 260px;
-  height: 174px;
+  width: 255px;
+  height: 164px;
+  border-radius: 9px;
 }
 
 .precio-mora {
   position: relative;
   width: 164px;
   height: 46px;
-  top: -1159px;
+  top: -1079px;
   left: 1127px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -637,8 +1005,8 @@ header {
   position: relative;
   width: 195px;
   height: 158px;
-  top: -1105px;
-  left: 38px;
+  top: -972px;
+  left: 46px;
   padding: 0px 2px;
   /* border: 2px solid #000000; */
 }
@@ -652,9 +1020,8 @@ header {
   position: relative;
   width: 217px;
   height: 46px;
-  top: -1099px;
+  top: -953px;
   left: 39px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -662,23 +1029,23 @@ header {
   position: relative;
   width: 182px;
   height: 182px;
-  top: -1282px;
+  top: -1169px;
   left: 421px;
   /* border: 2px solid #000000; */
 }
 
 .papa-crio img {
-  width: 171px;
-  height: 163px;
+  width: 166px;
+  height: 153px;
+  border-radius: 9px;
 }
 
 .precio-criolla {
   position: relative;
   width: 210px;
   height: 46px;
-  top: -1293px;
-  left: 400px;
-  /* bottom: 2px; */
+  top: -1181px;
+  left: 398px;
   /* border: 2px solid #000000; */
 }
 
@@ -686,23 +1053,23 @@ header {
   position: relative;
   width: 263px;
   height: 144px;
-  top: -1499px;
+  top: -1386px;
   left: 744px;
   /* border: 2px solid #000000; */
 }
 
 .tomate img {
-  width: 257px;
+  width: 233px;
   height: 139px;
+  border-radius: 9px;
 }
 
 .precio-tomate {
   position: relative;
   width: 179px;
   height: 41px;
-  top: -1495px;
-  left: 777px;
-  /* bottom: 2px; */
+  top: -1376px;
+  left: 772px;
   /* border: 2px solid #000000; */
 }
 
@@ -710,23 +1077,23 @@ header {
   position: relative;
   width: 237px;
   height: 155px;
-  top: -1690px;
+  top: -1572px;
   left: 1091px;
   /* border: 2px solid #000000; */
 }
 
 .plata-verde img {
-  width: 232px;
-  height: 151px;
+  width: 228px;
+  height: 144px;
+  border-radius: 9px;
 }
 
 .platano-verde {
   position: relative;
   width: 224px;
   height: 46px;
-  top: -1685px;
-  left: 1105px;
-  /* bottom: 2px; */
+  top: -1568px;
+  left: 1099px;
   /* border: 2px solid #000000; */
 }
 
@@ -734,23 +1101,23 @@ header {
   position: relative;
   width: 190px;
   height: 180px;
-  top: -1618px;
-  left: 32px;
+  top: -1482px;
+  left: 40px;
   /* border: 2px solid #000000; */
 }
 
 .zanahoria img {
-  width: 184px;
-  height: 174px;
+  width: 174px;
+  height: 164px;
+  border-radius: 9px;
 }
 
 .precio-zanah {
   position: relative;
   width: 194px;
   height: 46px;
-  top: -1604px;
+  top: -1480px;
   left: 27px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -758,22 +1125,23 @@ header {
   position: relative;
   width: 189px;
   height: 180px;
-  top: -1841px;
-  left: 413px;
+  top: -1716px;
+  left: 427px;
   /* border: 2px solid #000000; */
 }
 
 .Cebolla-normal img {
-  width: 184px;
-  height: 174px;
+  width: 174px;
+  height: 164px;
+  border-radius: 9px;
 }
 
 .precio-cebolla {
   position: relative;
   width: 250px;
   height: 46px;
-  top: -1843px;
-  left: 373px;
+  top: -1715px;
+  left: 386px;
   /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
@@ -782,23 +1150,23 @@ header {
   position: relative;
   width: 190px;
   height: 180px;
-  top: -2063px;
-  left: 770px;
+  top: -1936px;
+  left: 779px;
   /* border: 2px solid #000000; */
 }
 
 .cabezona-roja img {
-  width: 180px;
-  height: 174px;
+  width: 174px;
+  height: 164px;
+  border-radius: 9px;
 }
 
 .precio-roja {
   position: relative;
   width: 214px;
   height: 39px;
-  top: -2063px;
+  top: -1937px;
   left: 757px;
-  /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
 
@@ -806,22 +1174,23 @@ header {
   position: relative;
   width: 238px;
   height: 158px;
-  top: -2261px;
+  top: -2139px;
   left: 1092px;
   /* border: 2px solid #000000; */
 }
 
 .cilantro img {
   width: 227px;
-  height: 153px; 
+  height: 153px;
+  border-radius: 9px; 
 }
 
 .precio-cilantro {
   position: relative;
   width: 179px;
   height: 46px;
-  top: -2258px;
-  left: 1113px;
+  top: -2131px;
+  left: 1121px;
   /* bottom: 2px; */
   /* border: 2px solid #000000; */
 }
@@ -830,8 +1199,8 @@ header {
   position: relative;
   width: 203px;
   height: 179px;
-  top: -2222px;
-  left: 18px;
+  top: -2078px;
+  left: 28px;
   /* border: 2px solid #000000; */
 }
 
@@ -844,7 +1213,7 @@ header {
   position: relative;
   width: 220px;
   height: 46px;
-  top: -2217px;
+  top: -2066px;
   left: 4px;
   /* bottom: 2px; */
   /* border: 2px solid #000000; */
@@ -854,21 +1223,22 @@ header {
   position: relative;
   width: 186px;
   height: 189px;
-  top: -2430px;
-  left: 419px;
+  top: -2294px;
+  left: 426px;
   /* border: 2px solid #000000; */
 }
 
 .arveja-verde img {
-  width: 180px;
-  height: 184px;
+  width: 171px;
+  height: 172px;
+  border-radius: 9px;
 }
 
 .precio-arve {
   position: relative;
   width: 211px;
   height: 46px;
-  top: -2429px;
+  top: -2296px;
   left: 402px;
   /* bottom: 2px; */
   /* border: 2px solid #000000; */
@@ -878,7 +1248,7 @@ header {
   position: relative;
   width: 217px;
   height: 152px;
-  top: -2643px;
+  top: -2514px;
   left: 757px;
   /* border: 2px solid #000000; */
 }
@@ -886,13 +1256,14 @@ header {
 .ahuyama img {
   width: 212px;
   height: 147px;  
+  border-radius: 9px;
 }
 
 .precio-ahuya {
   position: relative;
   width: 188px;
   height: 46px;
-  top: -2641px;
+  top: -2499px;
   left: 769px;
   /* bottom: 2px; */
   /* border: 2px solid #000000; */
@@ -902,7 +1273,7 @@ header {
   position: relative;
   width: 220px;
   height: 160px;
-  top: -2854px;
+  top: -2717px;
   left: 1100px;
   /* border: 2px solid #000000; */
 }
@@ -916,56 +1287,22 @@ header {
   position: relative;
   width: 171px;
   height: 46px;
-  top: -2845px;
+  top: -2702px;
   left: 1129px;
-  /* bottom: -418px; */
-  /* border: 2px solid #000000; */
-}
-
-a[href="inicio.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="productos.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="plaza.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="servicios.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="precios_may.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="acerca_nos.html"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-a[href="login.php"] {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
 }
 
 a[href="poli_term.html"] {
-  color: black;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info-foot li a:hover {
+  color: aquamarine;
+}
+
+a[href="poli_term.php"] {
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
@@ -976,28 +1313,27 @@ a[href="https://www.sic.gov.co/"] {
   font-weight: bold;
 }
 
-
+/* DE AQUI HACIA ABAJO ES EL FOOTERR */
 footer {
-  position: sticky;
+  position: relative;
   margin-bottom: 0;
   width: 100%;
-  height: 220px;
+  height: auto;
   overflow: hidden;
 }
 
 .pie-pagina {
+  width: 100%;
+  height: 224px;
   background-color: #ff1b05;
-  height: 220px;
 }
 
 .acerca_nosotros {
   position: relative;
   width: 173px;
   height: 31px;
-  top: 18px;
-  left: 26px;
-  /* border: 2px solid #000000; */
-  /* margin-top: 4px; */
+  top: 17px;
+  left: 34px;
 }
 
 .primera-columna {
@@ -1005,11 +1341,8 @@ footer {
   width: 208px;
   height: 143px;
   font-weight: bold;
-  top: 27px;
-  padding: 2px;
-  left: 18px;
-  bottom: 0;
-  /* border: 2px solid #000000; */
+  top: 8px;
+  left: 43px;
 }
 
 .primera-columna ul {
@@ -1026,42 +1359,76 @@ footer {
 
 .primera-columna p {
   font-weight: bold;
-  margin-left: 28px;
-  padding: 1px;
+}
+
+.primera-columna .isab {
+  position: relative;
+  left: 1px;
+  top: 3px;
+}
+
+.primera-columna .Carre {
+  position: relative;
+  top: 20px;
+}
+
+.primera-columna .Olaya {
+  position: relative;
+  top: 22px;
+}
+
+.primera-columna .caluroso {
+  position: relative;
+  top: -5px;
+  left: 20px;
 }
 
 .ubica {
   position: relative;
   width: 28px;
   height: 28px;
-  top: -116px;
-  left: 13px;
-  /* border: 2px solid #000000; */
+  top: 28px;
+  left: 31px;
 }
 
-.ubica img {
-  width: 24px;
-  height: 24px;
+.bica {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  top: 24px;
+  left: 31px;
+}
+
+.indus {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+
+.condi {
+  position: relative;
+  left: 3px;
+  top: 5px
+}
+
+.info-foot .inten {
+  margin-top: 36px;
 }
 
 .importante {
   position: relative;
   width: 102px;
   height: 32px;
-  top: -182px;
-  left: 319px;
-  margin-left: 19px;
-  /* border: 2px solid #000000; */
+  top: -189px;
+  left: 330px;
 }
 
 .info-foot {
   position: relative;
   width: 203px;
   height: 138px;
-  top: -171px;
-  left: 292px;
-  /* border: 2px solid #000000; */
-  /* margin-top: 4px; */
+  top: -167px;
+  left: 306px;
 }
 
 .info-foot ul {
@@ -1071,7 +1438,7 @@ footer {
 }
 
 .info-foot p {
-  margin-left: 19px;
+  margin-left: -7px;
   padding: 1px;
 }
 
@@ -1081,115 +1448,86 @@ footer {
   height: 30px;
   font-size: 18px;
   font-weight: bold;
-  top: -350px;
-  left: 628px;
+  top: -356px;
+  left: 636px;
   /* border: 2px solid #000000; */
 }
 
 .atencion {
   position: relative;
-  width: 32px;
-  height: 31px;
-  top: -341px;
-  left: 563px;
-  /* border: 2px solid #000000; */
-}
-
-.atencion img {
   width: 24px;
   height: 24px;
+  top: -342px;
+  left: 570px;
 }
 
 .correo-uno {
   position: relative;
-  width: 32px;
-  height: 31px;
-  top: -303px;
-  left: 562px;
-  /* border: 2px solid #000000; */
-}
-
-.correo-uno img {
   width: 24px;
   height: 24px;
+  top: -274px;
+  left: 545px;
 }
 
 .correo-dos {
   position: relative;
-  width: 32px;
-  height: 31px;
-  top: -284px;
-  left: 562px;
-  /* border: 2px solid #000000; */
-}
-
-.correo-dos img {
   width: 24px;
   height: 24px;
+  top: -223px;
+  left: 517px;
 }
 
 .horario-atencion {
   position: relative;
   width: 247px;
   height: 50px;
-  top: -432px;
-  left: 593px;
+  top: -368px;
+  left: 599px;
   font-weight: bold;
-  /* border: 2px solid #000000; */
 }
 
 .dueño-uno {
   position: relative;
   width: 201px;
   height: 28px;
-  top: -412px;
-  left: 597px;
+  top: -348px;
+  left: 602px;
   font-weight: bold;
-  /* border: 2px solid #000000; */
 }
 
 .dos-dueño {
   position: relative;
   width: 209px;
   height: 27px;
-  top: -390px;
-  left: 598px;
+  top: -325px;
+  left: 603px;
   font-weight: bold;
-  /* border: 2px solid #000000; */
 }
 
 .logo-super {
   position: relative;
-  width: 106px;
-  height: 88px;
-  top: -579px;
-  left: 894px;
-  /* border: 2px solid #000000; */
-}
-
-.logo-super img {
   width: 94px;
   height: 82px;
+  top: -523px;
+  left: 894px;
 }
 
 .derechos {
   position: relative;
   width: 340px;
   height: 42px;
-  top: -590px;
-  left: 994px;
+  top: -528px;
+  left: 1000px;
   font-weight: bold;
-  /* border: 2px solid #000000; */
 }
 
 .datos-person {
   position: relative;
   width: 451px;
   height: 30px;
-  top: -559px;
-  left: 892px;
+  top: -492px;
+  left: 897px;
   font-weight: bold;
-  /* border: 2px solid #000000; */
 }
 
 .info-foot {
@@ -1198,9 +1536,9 @@ footer {
 
 .quienes-somos {
   position: relative;
-  top: 17px;
-  margin-bottom: 28px;
-  margin-left: 38px;
+  top: 19px;
+  margin-bottom: 36px;
+  margin-left: 39px;
   text-align: justify;
 }
 
@@ -1232,11 +1570,11 @@ footer {
 .termin {
   position: relative;
   top: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 23px;
 }
 
 .terminos {
-  margin-left: -56px;
+  margin-left: -60px;
   text-align: center;
 }
 
@@ -1251,7 +1589,7 @@ footer {
   width: 105px;
   height: 42px;
   left: 641px;
-  top: -3px;
+  top: -10px;
   border-radius: 5px;
 }
 
@@ -1260,6 +1598,9 @@ footer {
 }
 
 .todo-acep {
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
   text-align: center;
   padding: 10px 2px;
 }
@@ -1268,9 +1609,27 @@ footer {
 .float-tele {
   position:absolute;
   bottom: -150px;
-  right: 0px;
+  right: -8px;
   transform: translate(-35%, 10px);
   z-index: 100;
+}
+
+.formu h1 {
+  font-size: 28px;
+  margin-top: -1px;
+  margin-left: 19px;
+}
+
+.realiza {
+  position: relative;
+  margin-left: 9px;
+  top: 1px;
+}
+
+.flat {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .float-tele img {
@@ -1281,11 +1640,11 @@ footer {
 
   /* Efecto de hover */
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.4s;
 
   &:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 10px 5px #333;
+    box-shadow: 0 0 10px 5px aqua;
   }
 }
 
@@ -1303,6 +1662,9 @@ footer {
 }
 
 .produc-mayoris {
+  height: 1500px;
+  margin-top: 42px;
+  margin-bottom: -13px;
   text-align: center;
 }
 
@@ -1326,24 +1688,23 @@ footer {
 
 .servi-ofre {
   position: relative;
-  top: 12px;
+  margin-top: 29px;
   margin-left: 94px;
   margin-bottom: 2px;
 }
 
 .parrafo-amplia {
   position: relative;
-  top: 29px;
-  margin-left: 93px;
-  margin-bottom: 2px;
+  top: 32px;
+  margin-left: 88px;
 }
 
 .slider-uno {
   position: relative;
   width: 412px;
   height: 126px;
-  top: -90px;
-  left: 799px;
+  top: -80px;
+  left: 772px;
   /* border: 2px solid #000000; */
 }
 
@@ -1359,17 +1720,16 @@ footer {
 
 .parrafo-domicilios {
   position: relative;
-  top: -12px;
-  margin-left: 93px;
-  margin-bottom: 2px;
+  top: -14px;
+  margin-left: 88px;
 }
 
 .slider-dos {
   position: relative;
   width: 234px;
   height: 111px;
-  top: -133px;
-  left: 783px;
+  top: -140px;
+  left: 769px;
   /* border: 2px solid #000000; */
 }
 
@@ -1380,16 +1740,15 @@ footer {
 
 .parrafo-servicio {
   position: relative;
-  top: -33px;
-  margin-left: 93px;
-  margin-bottom: 2px;
+  top: -36px;
+  margin-left: 88px;
 }
 
 .slider-tres {
   position: relative;
   width: 41px;
   height: 20px;
-  top: -150px;
+  top: -142px;
   left: 798px;
   /* border: 2px solid #000000; */
 }
@@ -1397,20 +1756,20 @@ footer {
 .slider-tres img {
   width: 160px;
   height: 108px;
+  border-radius: 7px;
 }
 
 .parrafo-frescura {
   position: relative;
-  top: 39px;
-  margin-left: 93px;
-  margin-bottom: 2px;
+  top: 34px;
+  margin-left: 88px;
 }
 
 .slider-cuatro {
   position: relative;
   width: 20px;
   height: 20px;
-  top: -67px;
+  top: -80px;
   left: 768px;
   /* border: 2px solid #000000; */
 }
@@ -1422,38 +1781,39 @@ footer {
 
 .parrafo-impacto {
   position: relative;
-  top: 119px;
-  margin-left: 93px;
-  margin-bottom: 2px;
+  top: 108px;
+  margin-left: 88px;
 }
 
 .slider-cinco {
   position: relative;
   width: 192px;
   height: 109px;
-  top: 32px;
-  left: 768px;
+  top: 8px;
+  left: 762px;
   /* border: 2px solid #000000; */
 }
 
 .slider-cinco img {
   width: 175px ;
   height: 91px;
+  border-radius: 7px;
 }
 
 .parrafo-contacto {
   position: relative;
-  top: 96px;
-  margin-left: 93px;
-  margin-bottom: 115px;
+  font-weight: bold;
+  top: 78px;
+  margin-left: 88px;
+  margin-bottom: 110px;
 }
 
 .slider-seis {
   position: relative;
   width: 20px;
   height: 20px;
-  top: -131px;
-  left: 722px;
+  top: -165px;
+  left: 713px;
   /* border: 2px solid #000000; */
 }
  
@@ -1463,27 +1823,37 @@ footer {
 }
 
 .lilo {
-  height: 1500px;
+  height: 1640px;
 }
 
 .aden-login {
   position: relative;
   width: 400px;
-  height: 570px;
+  height: 744px;
   text-align: center;
   transform: translate(-50%, -50%);
   left: 693px;
-  top: 298px;
-  /* bottom: 0px; */
-  margin-bottom: 38px;
-  /* box-shadow: 0 2px 5px 5px rgb(255, 27, 5)(0, 0, 0, 0.3); */
+  top: 395px;
+  margin-bottom: 60px;
   border: 2px solid #ff1b05;
   box-shadow: 0 1px 9px 1px rgb(255, 27, 5);
   border-radius: 18px;
+  /* bottom: 0px; */
 }
 
-.registrate {
-  text-shadow: 2px 3px 0px #00000038;
+.sesion-inicio {
+  position: relative;
+  width: 400px;
+  height: 520px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  left: 693px;
+  top: 289px;
+  font-weight: bold;
+  margin-bottom: 69px;
+  border: 2px solid #ff1b05;
+  box-shadow: 0 1px 9px 1px rgb(255, 27, 5);
+  border-radius: 18px;
 }
 
 .estilo {
@@ -1515,8 +1885,9 @@ footer {
 .formu label {
   display: block;
   position: relative;
+  margin-top: 11px;
   margin-left: 70px;
-  margin-bottom: 21px;
+  margin-bottom: 24px;
   padding-left: 0px;
   width: 272px;
   height: 50px;
@@ -1526,20 +1897,33 @@ footer {
   transition: background-color 0.2s ease-in-out;
 }
 
-input {
-  cursor: pointer;
-  /* border: #ff1b05;
-  transition: background-color 0.2s ease-in-out; */
+.formu label:hover {
+  box-shadow: 0 1px 16px 4px rgb(255, 255, 0);
 }
 
 .formu {
+  position: relative;
+  top: 20px;
+  left: -3px;
   background-color: transparent;
 }
 
 i.bx.bx-user {
   position: relative;
   top: 5px;
-  left: -2px
+  left: -1px
+}
+
+i.bx.bxs-user {
+  position: relative;
+  top: 5px;
+  left: -1px
+}
+
+i.bx.bxs-lock-alt {
+  position: relative;
+  top: 5px;
+  left: 1px
 }
 
 i.bx.bx-envelope {
@@ -1577,31 +1961,26 @@ i.bx.bxs-city {
   height: 40px;
   padding: 7px 0px;
 }
-/* 
-.resaltado {
-  /* box-shadow: 0 0 5px rgba(0, 0, 255, 0.7);
-  border: 2px solid red;
-} */
-/* 
-
-input:focus {
-  border-color: red; /* Cambia el color del borde cuando el input está enfocado
-  outline: none; 
-} */
 
 .register {
   background-color: #ff1b05;
   position: relative;
   text-align: center;
-  width: 105px;
+  width: 120px;
   height: 42px;
-  left: 2px;
-  top: -3px;
+  left: -2px;
+  top: 4px;
   cursor: pointer;
   border: none;
   outline: none;
   border-radius: 5px;
   font-weight: bold;
+}
+
+.pedidos {
+  position: relative;
+  left: 3px;
+  top: 15px;
 }
 
 .registar {
@@ -1612,69 +1991,15 @@ input:focus {
   color: #000000;
 }
 
-.experiencia {
-  position: relative;
-  width: 577px;
-  height: 36px;
-  top: -16px;
-  left: 389px;
-  text-align: center;
-  box-shadow: 0 2px 5px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-  /* bottom: 40px; */
-  /* border: 2px solid #000000; */
+.useers img {
+  margin-top: -8px;
+  margin-left: 3px;
+  width: 154px;
+  height: 153px;
+  filter: drop-shadow(2px 2px 11px aqua);
 }
 
-.experiencia h2 {
-  padding: 5px 4px;
-}
-
-.meses-aqui {
-  position: relative;
-  top: 16px;
-  left: 42px;
-  border-radius: 5px;
-  /* width: 200px;
-  height: 36px; */
-  /* bottom: 40px; */
-  /* border: 2px solid #000000; */
-  font-weight: bold;
-}
-
-.meses-aqui p {
-  padding: 13px 12px;
-}
-
-.meses-aqui {
-  background-color: #ffff00;
-  width: 219px;
-  height: 47px;
-}
-
-.locura {
-  position: relative;
-  width: 478px;
-  height: 140px;
-  top: 22px;
-  left: 40px;
-  /* border: 2px solid #000000; */
-}
-
-.locura img {
-  width: 473px;
-  height: 135px;
-}
-
-.string-text {
-  position: relative;
-  width: 360px;
-  height: 42px;
-  font-weight: bold;
-  top: 28px;
-  left: 28px;
-  /* border: 2px solid #000000; */
-}
-
+/* AQUI EMPIEZA LA PÁGINA DE PRODUCTOS */
 .festival-precios {
   position: relative;
   width: 445px;
@@ -1687,6 +2012,7 @@ input:focus {
 .festival-precios img {
   width: 440px;
   height: 118px;
+  border-radius: 7px;
 }
 
 .slider-todo {
@@ -1791,7 +2117,7 @@ input:focus {
   position: relative;
   width: 444px;
   height: 234px;
-  top: -211px;
+  top: -209px;
   left: 712px;
   /* border: 2px solid #000000; */
 }
@@ -1800,11 +2126,3 @@ input:focus {
   width: 442px;
   height: 232px;
 }
-
-/* .formu label input {
-  border: none;
-} */
-
-/* label {
-  margin-left: 10px;
-} */
