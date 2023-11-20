@@ -102,8 +102,8 @@
         <strong>[Cristiancaya@hotmail.com] o [3153400962].</strong></p><br>
 
         <h4 class="espacio-renglones">Seguridad</h4>
-        <p>Tomamos medidas de seguridad para proteger su información personal, como el cifrado de datos y el acceso restringido a 
-        la información.</p><br>
+        <p>Tomamos medidas de seguridad para proteger su información personal, como el cifrado de datos y el acceso restringido
+        a la información.</p><br>
 
         <h4 class="espacio-renglones">Cambios en esta política</h4>
         <p class="espacio-renglones">Podemos actualizar esta política de privacidad de vez en cuando. Le notificaremos cualquier 
