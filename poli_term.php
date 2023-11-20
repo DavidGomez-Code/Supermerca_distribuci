@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPERMERCADOS LA ECONOMIA AYA/Política y Términos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="shortcut icon" href="http://drive.google.com/uc?export=view&id=1SfSqPSFSHSOKbNPkrRsXGHPhFvOiQIEg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  </head>
+
+  <body>
+    <?php
+      session_start();
+      if (!isset($_SESSION["buser_complet"])) {
+      // Redirigir al usuario a la página de inicio de sesión
+      header("Location: inicio_sesion.php");
+      exit();
+    }
+    ?> 
+    <header>
+      <!-- Primero hacemos la franja roja-->
+      <section class="franja-roja">      
+        <img src="http://drive.google.com/uc?export=view&id=15wda6PO-RNA2s29lximfU7ZAogsy43XB" class="encierra-icono" alt="Icono de llamadas">
+
+        <p class="lineas"> <a href="tel:+5732233398438">Lineas de atención: 32233398438 - 3153400962 <a href="tel:+573153400962"></a></p>
+
+        <a target="_blank" class="links" href="https://www.facebook.com/profile.php?id=100044680844154">
+          <img src="http://drive.google.com/uc?export=view&id=1Imgm3YKNUU0jqT9LPhr4mxQpl4CQJzSe" class="sociala" alt="Facebook">
+        </a>
+
+        <a target="_blank" class="links" href="https://www.youtube.com/channel/UCZ0tWaE8nD4WwMQ69FniD2A">
+          <img src="http://drive.google.com/uc?export=view&id=1SkgJjIaMb_vJ10cQzCmN3PlusnY2MJ0z" class="social" alt="YouTube">
+        </a>
+
+        <a target="_blank" class="links" href="https://web.telegram.org/k/">
+          <img src="http://drive.google.com/uc?export=view&id=1RFYu17TrmI45p64EwTnw5Z4cp1eawAJu" class="social" alt="Telegram">
+        </a>
+
+        <a target="_blank" class="links" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">
+          <img src="http://drive.google.com/uc?export=view&id=1aN2KZ5xUdro0P0kuoAuS7jUCGjAjJ5Xj" class="social" alt="LinkedIn">
+        </a>
+      </section>
+
+      <!--Empieza el menú de navegación-->
+        <nav class="barra-nave">
+          <img src="http://drive.google.com/uc?export=view&id=1SfSqPSFSHSOKbNPkrRsXGHPhFvOiQIEg" class="Logo" alt="Logo Supermercado">
+
+          <h1 class="titulo">SUPERMERCADOS Y <br> DISTRIBUCIONES LA <br> ECONOMIA AYA</h1>
+          <p class="eslogan">¡Compras inteligentes ahorros,<br> constantes!</p>
+
+          <ul class="nav-barra">
+            <li class="nav-item"><a href="inicio.php">Inicio<i class='bx bx-home'></i></a></li>
+            <li class="nav-item"><a href="productos.php">Productos</a></li>
+            <li class="nav-item"><a href="plaza.php">Plaza</a></li>
+            <li class="nav-item"><a href="servicios.php">Servicios</a></li>
+            <li class="nav-mayo"><a href="precios_may.php">Precios<br>
+            <strong>Mayoristas</strong></a></li>
+            <li class="nav-acerca"><a href="acerca_nos.php">Acerca de <br>
+            <strong>Nosotros<i class='bx bx-chevron-down'></i></strong></a></li>
+            <li><img src="http://drive.google.com/uc?export=view&id=1gQEfUh73GiC-aImOyq1uvO4UUWsrt2De" alt="cerrar"></li>
+            <li class="sesion"><a class="regis-titu" href="cerrar.php">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Aqui finaliza el HEADER-->     
+
+    <!--A continuación el CONTENIDO PRINCIPAL de la página-->
+    <main>
+      <h2 class="priva">Política Privacidad</h2><br>
+      <section class="termin">
+        <article class="primer-parrafo">
+        <p class="espacio-renglones"><strong>Supermercado y Distribuciones La Economía Aya</strong> respeta la privacidad de sus
+        clientes y usuarios. Esta política de privacidad explica cómo recopilamos, usamos <br> 
+        y compartimos su información personal.</p><br>
+
+        <h4 class="espacio-renglones">Información que recopilamos</h4>
+        <p class="espacio-renglones">Recopilamos información personal de usted cuando se registra en nuestro sitio web, realiza un
+        pedido, se comunica con nosotros o utiliza nuestros servicios. La <br> información personal que recopilamos puede incluir
+        su nombre, dirección, número de teléfono, dirección de correo electrónico, información de pago y otra <br> 
+        información que usted nos proporcione.</p> <br>
+
+        <h4 class="espacio-renglones">Cómo usamos su información</h4>
+        <p class="espacio-renglones">Usamos su información personal para proporcionarle los productos y servicios que solicita, para
+        comunicarnos con usted sobre sus pedidos y para mejorar nuestros <br> productos y servicios. También podemos usar su 
+        información personal para fines de marketing, como enviarle mensajes a través de Telegram sobre nuevos <br> 
+        productos y ofertas.</p><br>
+
+        <h4 class="renglon">Compartición de su información</h4>
+        <p >No compartimos su información personal con terceros, excepto en los siguientes casos:</p>
+          <ul class="info">
+            <li class="espacio-renglones">Con proveedores de servicios que nos ayudan a proporcionar nuestros productos 
+            y servicios.</li>
+            <li class="espacio-renglones">Para cumplir con la ley o una orden judicial.</li>
+            <li class="espacio-renglones">Para proteger nuestros derechos o propiedad.</li><br>
+          </ul>
+
+        <h4 class="espacio-renglones">Sus derechos</h4>
+        <p class="espacio-renglones">Tiene derecho a acceder, corregir o eliminar su información personal. También puede optar por
+        no recibir comunicaciones de marketing de nosotros. Para ejercer <br> estos derechos, comuníquese con nosotros a
+        <strong>[Cristiancaya@hotmail.com] o [3153400962].</strong></p><br>
+
+        <h4 class="espacio-renglones">Seguridad</h4>
+        <p>Tomamos medidas de seguridad para proteger su información personal, como el cifrado de datos y el acceso restringido a 
+        la información.</p><br>
+
+        <h4 class="espacio-renglones">Cambios en esta política</h4>
+        <p class="espacio-renglones">Podemos actualizar esta política de privacidad de vez en cuando. Le notificaremos cualquier 
+        cambio importante en esta política de privacidad publicando un aviso <br> en nuestro sitio web.</p> <br> <br>
+        </article>
+
+        <article class="segundo-parrafo">
+          <h2 class="terminos">Términos y Condiciones</h2><br>
+          <p>Al utilizar el sitio web, los servicios o los productos de Supermercado y Distribuciones La Economía Aya, usted acepta
+          los siguientes términos y condiciones: </p><br>
+              
+            <ul class="terminos-condiciones">
+              <li>Usted es responsable de mantener la confidencialidad de su información de cuenta y contraseña.</li><br>
+              <li>Usted es responsable de cualquier actividad que ocurra en su cuenta.</li><br>
+              <li>Usted no puede utilizar el sitio web, los servicios o los productos para ningún propósito ilegal 
+                  o prohibido.</li><br>
+              <li>Usted no puede violar los derechos de propiedad intelectual de terceros.</li><br>
+              <li>Supermercado y Distribuciones La Economía Aya se reserva el derecho de modificar o cancelar el sitio web, 
+                  los servicios o los productos en cualquier momento.</li><br><br>
+            </ul>
+  
+              <h3 class="espacio-renglones">Contáctenos</h3>
+              Si tiene alguna pregunta sobre esta política de privacidad o los términos y condiciones, comuníquese con nosotros a 
+              <strong>[Cristiancaya@hotmail.com] o [3153400962].</strong></p>
+            </article><br>
+          </section>
+          <div class="acepto">
+            <ul class="aceptar"><a class="todo-acep" href="inicio.php">Acepto</a></ul>
+          </div>
+    </main><br>
+
+    <!--Haremos el FOOTER-->
+    <footer>
+      <nav class="pie-pagina">
+        <h3 class="acerca_nosotros">Acerca de Nosotros</h3>
+        <img src="http://drive.google.com/uc?export=view&id=1cgM_euKNWeGdKhlzNo31Y2NulpLA8UUp" class="ubica" alt="ubicación">  
+          <ul class="primera-columna">
+            <p class="caluroso">Neiva - Huila</p><br>
+            <li class="Calle">Calle 10 Sur No. 21-92</li>
+            <p class="isab">Santa Isabel</p>
+            <li class="Carre">Cra 52 #26 A 03 Olaya</li>
+            <p class="Olaya">Herrera</p>
+          </ul>
+
+        <h3 class="importante">Importante</h3>
+          <ul class="info-foot">
+          <li><a href="poli_term.html">Política Privacidad - <p class="condi">Términos y Condiciones</a></li></p>
+          <li class="inten"><a target="_blank" href="https://www.sic.gov.co/">Superintendencia de
+              <p class="indus">Industria y Comercio SIC</a></li></p>
+          </ul>
+
+        <h3 class="contacto-dueños">Contactanos</h3>
+        <img src="http://drive.google.com/uc?export=view&id=1DcvccSHxYHd1OSD26AensbrgZRonTllo" class="atencion" alt="Horario atención">
+        <img src="http://drive.google.com/uc?export=view&id=15Z8obCYh_3lHY_N8aDpixQxqmI3KyNk2" class="correo-uno" alt="Correo uno">
+        <img src="http://drive.google.com/uc?export=view&id=15Z8obCYh_3lHY_N8aDpixQxqmI3KyNk2" class="correo-dos" alt="Correo dos">  
+        <p class="horario-atencion">Horario de atención: lunes a<br> domingos de 6:00 a.m a 8:30 p.m</p>  
+        <p class="dueño-uno">Cristiancaya@hotmail.com</p>
+        <p class="dos-dueño">Edwin10andres@gmail.com</p>
+        <img src="http://drive.google.com/uc?export=view&id=1SfSqPSFSHSOKbNPkrRsXGHPhFvOiQIEg" class="logo-super" alt="Logo Supermercado">
+        <p class="derechos">©2023.SUPERMERCADOS LA ECONOMIA AYA <br>|Todos los derechos reservados</p> 
+        <p class="datos-person">01 8000 456220|Política de Tratamiento de Datos Personales</p>
+      </nav>
+    </footer>
+  </body>
+</html>
